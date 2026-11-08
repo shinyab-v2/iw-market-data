@@ -1,0 +1,24 @@
+{
+  "updatedAt": "2026-11-09T08:00:00Z",
+  "symbols": [
+    { "ticker": "005930", "market": "KRX", "currency": "KRW", "name": "삼성전자", "category": "CORE" },
+    { "ticker": "000660", "market": "KRX", "currency": "KRW", "name": "SK하이닉스", "category": "CORE" },
+    { "ticker": "005380", "market": "KRX", "currency": "KRW", "name": "현대차", "category": "CORE" },
+    { "ticker": "035420", "market": "KRX", "currency": "KRW", "name": "NAVER", "category": "CORE" },
+    { "ticker": "006800", "market": "KRX", "currency": "KRW", "name": "미래에셋증권", "category": "CORE" },
+    { "ticker": "161510", "market": "KRX", "currency": "KRW", "name": "고려아연", "category": "CORE" },
+    { "ticker": "442320", "market": "KRX", "currency": "KRW", "name": "RISE 글로벌원자력", "category": "ETF" },
+    { "ticker": "0111P0", "market": "KRX", "currency": "KRW", "name": "1Q 미국나스닥100미국채혼합50액티브", "category": "ETF" },
+    { "ticker": "SOXL", "market": "US", "currency": "USD", "name": "Direxion Daily Semiconductor Bull 3X", "category": "ETF" },
+    { "ticker": "NVDA", "market": "US", "currency": "USD", "name": "NVIDIA Corp", "category": "CORE" },
+    { "ticker": "TSLA", "market": "US", "currency": "USD", "name": "Tesla Inc", "category": "CORE" },
+    { "ticker": "AAPL", "market": "US", "currency": "USD", "name": "Apple Inc", "category": "CORE" },
+    { "ticker": "MSFT", "market": "US", "currency": "USD", "name": "Microsoft Corp", "category": "CORE" },
+    { "ticker": "META", "market": "US", "currency": "USD", "name": "Meta Platforms Inc", "category": "CORE" },
+    { "ticker": "BE", "market": "US", "currency": "USD", "name": "Bloom Energy Corp", "category": "CORE" },
+    { "ticker": "AMD", "market": "US", "currency": "USD", "name": "Advanced Micro Devices", "category": "CORE" },
+    { "ticker": "LRCX", "market": "US", "currency": "USD", "name": "Lam Research Corp", "category": "CORE" },
+    { "ticker": "QQQ", "market": "US", "currency": "USD", "name": "Invesco QQQ Trust", "category": "INDEX" },
+    { "ticker": "SPY", "market": "US", "currency": "USD", "name": "SPDR S&P 500 ETF Trust", "category": "INDEX" }
+  ]
+}
