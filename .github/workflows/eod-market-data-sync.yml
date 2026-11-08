@@ -1,0 +1,52 @@
+name: EOD Market Data Sync
+
+on:
+  schedule:
+    # Run at 22:00 UTC Mon-Fri (07:00 KST Tue-Sat, after KR & US close)
+    - cron: '0 22 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force re-fetch all prices'
+        required: false
+        default: 'false'
+
+concurrency:
+  group: eod-market-data-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync-market-data:
+    name: Sync EOD Prices
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run Market Data Builder
+        run: node scripts/build-market-data.mjs
+
+      - name: Commit and Push if Changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain prices/)" ]; then
+            git add prices/
+            git commit -m "chore: auto-sync EOD market data ($(date -u +'%Y-%m-%d')) [skip ci]"
+            git push
+            echo "Successfully synced and pushed updated prices."
+          else
+            echo "No price diffs detected. Skipping commit."
+          fi
