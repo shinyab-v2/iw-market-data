@@ -523,15 +523,31 @@ export async function runBuild({
     const priceTargetFile = path.join(pricesDir, `${ticker}.json`);
     const newPriceHash = computeRowsHash(result.rows);
 
-    let existingPriceHash = null;
+    let existingPrice = null;
     if (fs.existsSync(priceTargetFile)) {
       try {
-        const existing = JSON.parse(fs.readFileSync(priceTargetFile, 'utf8'));
-        existingPriceHash = computeRowsHash(existing.rows);
+        existingPrice = JSON.parse(fs.readFileSync(priceTargetFile, 'utf8'));
       } catch (err) {}
     }
 
-    if (existingPriceHash === newPriceHash) {
+    const lastRow = result.rows.at(-1);
+    const previousRows = existingPrice?.rows || [];
+    const lastPublished = previousRows.at(-1)?.d;
+    const now = new Date();
+    const today = isKr
+      ? new Intl.DateTimeFormat('en-CA', {timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit'}).format(now)
+      : formatNyDate(now.getTime() / 1000);
+    const age = (Date.parse(today) - Date.parse(lastRow.d)) / 86400000;
+    if (!(age >= 0 && age <= 4) || (lastPublished && lastRow.d < lastPublished) ||
+        result.rows.length < Math.min(count, previousRows.length)) {
+      console.warn(`[FAIL] ${ticker}: stale, regressed, or truncated history`);
+      summary.failed++;
+      summary.details.push({ ticker, status: 'FAILED', error: 'UNSAFE_HISTORY' });
+      continue;
+    }
+
+    if (existingPrice?.rows_hash === newPriceHash && computeRowsHash(previousRows) === newPriceHash &&
+        existingPrice.currency === currency && existingPrice.market === market && existingPrice.ticker === ticker) {
       summary.pricesUnchanged++;
     } else {
       const pricePayload = {
@@ -539,6 +555,7 @@ export async function runBuild({
         updatedAt: new Date().toISOString(),
         currency,
         market,
+        rows_hash: newPriceHash,
         rows: result.rows
       };
       if (!dryRun) {
@@ -550,6 +567,7 @@ export async function runBuild({
     // 2. Indicators Payload
     const indicatorTargetFile = path.join(indicatorsDir, `${ticker}.json`);
     const techSnapshot = computeTechnicalSnapshot(ticker, result.rows, currency, market);
+    techSnapshot.rows_hash = newPriceHash;
     const newIndicatorHash = computeObjectHash(techSnapshot);
 
     let existingIndicatorHash = null;
@@ -569,7 +587,6 @@ export async function runBuild({
       summary.indicatorsUpdated++;
     }
 
-    const lastRow = result.rows.at(-1);
     console.log(`[OK] ${ticker}: ${result.rows.length} rows, Close: ${lastRow.c}, TrendScore: ${techSnapshot.trend_score} (${techSnapshot.trend_label})`);
     summary.details.push({
       ticker,
@@ -585,7 +602,9 @@ export async function runBuild({
 }
 
 if (process.argv[1] && process.argv[1].endsWith('build-market-data.mjs')) {
-  runBuild().catch(err => {
+  runBuild().then(summary => {
+    if (summary.failed || !summary.total) process.exitCode = 1;
+  }).catch(err => {
     console.error('Fatal build error:', err);
     process.exit(1);
   });

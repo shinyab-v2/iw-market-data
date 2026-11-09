@@ -2,11 +2,16 @@
 
 Static market data CDN layer for Investment Workstation (IW).
 
-This repository serves as a zero-cost, high-speed public CDN (via GitHub Pages and Fastly edge cache) for sanitized, public end-of-day (EOD) market price and indicator data.
+This repository serves sanitized public end-of-day (EOD) market prices and indicators.
 
 ## Endpoints
 
-Base URL: `https://shinyab-v2.github.io/iw-market-data/`
+Primary base URL: `https://raw.githubusercontent.com/shinyab-v2/iw-market-data/main/`
+
+Fallback base URL: `https://cdn.jsdelivr.net/gh/shinyab-v2/iw-market-data@main/`
+
+The existing GitHub Pages site uses branch publishing and may lag scheduled
+bot commits. It is a historical access path.
 
 - **Daily Prices (OHLCV):**
   - Path: `prices/{ticker}.json` (e.g., `prices/005930.json`, `prices/SOXL.json`)
@@ -25,6 +30,7 @@ Base URL: `https://shinyab-v2.github.io/iw-market-data/`
   "updatedAt": "2026-11-09T08:00:00Z",
   "currency": "KRW",
   "market": "KRX",
+  "rows_hash": "<SHA-256 of the canonical OHLCV rows>",
   "rows": [
     {
       "d": "2026-11-06",
@@ -37,6 +43,10 @@ Base URL: `https://shinyab-v2.github.io/iw-market-data/`
   ]
 }
 ```
+
+The scheduled builder publishes changed prices and indicators together.
+Both files carry the same `rows_hash`. A failed or unsafe symbol fetch
+fails the job before any files are published. Unchanged builds skip the commit.
 
 ## Security & Privacy Note
 

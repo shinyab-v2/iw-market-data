@@ -20,7 +20,7 @@ permissions:
 
 jobs:
   sync-market-data:
-    name: Sync EOD Prices
+    name: Sync EOD Prices and Indicators
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
@@ -42,11 +42,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain prices/)" ]; then
-            git add prices/
+          if [ -n "$(git status --porcelain -- prices/ indicators/)" ]; then
+            git add -- prices/ indicators/
             git commit -m "chore: auto-sync EOD market data ($(date -u +'%Y-%m-%d')) [skip ci]"
             git push
-            echo "Successfully synced and pushed updated prices."
+            echo "Published changed prices and indicators together."
           else
-            echo "No price diffs detected. Skipping commit."
+            echo "No market data diffs detected. Skipping commit."
           fi
