@@ -1,9 +1,9 @@
 {
   "ticker": "034020",
-  "updatedAt": "2026-11-10T03:58:08.858Z",
+  "updatedAt": "2026-11-10T07:58:04.986Z",
   "currency": "KRW",
   "market": "KRX",
-  "rows_hash": "c0d06c80a25c7d3a66c9393993ab65eea48eefc2e595ac3ae78dc3347013292c",
+  "rows_hash": "0a60e30cf0f3dfcadf3baa6d3fb944be31ebd53efa8b06848746d7080b2972d0",
   "rows": [
     {
       "d": "2024-10-22",
@@ -4002,8 +4002,8 @@
       "o": 45600,
       "h": 47775,
       "l": 45300,
-      "c": 46350,
-      "v": 2129697
+      "c": 47100,
+      "v": 3081577
     }
   ]
 }
