@@ -157,7 +157,8 @@ async function fetchDomestic(ticker, count = 500) {
 async function fetchUs(ticker, count = 500) {
   const sym = normalizeTickerString(ticker);
   try {
-    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${sym}?interval=1d&range=2y`;
+    // A rolling two-year window can contain fewer than 500 trading sessions.
+    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${sym}?interval=1d&range=5y`;
     const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
     if (!res.ok) return { ok: false, error: `HTTP_${res.status}`, rows: [] };
     const data = await res.json();
@@ -540,7 +541,7 @@ export async function runBuild({
     const age = (Date.parse(today) - Date.parse(lastRow.d)) / 86400000;
     if (!(age >= 0 && age <= 4) || (lastPublished && lastRow.d < lastPublished) ||
         result.rows.length < Math.min(count, previousRows.length)) {
-      console.warn(`[FAIL] ${ticker}: stale, regressed, or truncated history`);
+      console.warn(`[FAIL] ${ticker}: unsafe history (last=${lastRow.d}, previous=${lastPublished || 'none'}, age=${age}, rows=${result.rows.length}, required=${Math.min(count, previousRows.length)})`);
       summary.failed++;
       summary.details.push({ ticker, status: 'FAILED', error: 'UNSAFE_HISTORY' });
       continue;
