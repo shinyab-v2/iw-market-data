@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "META",
-  "updated_at_utc": "2026-11-10T03:58:12.290Z",
+  "updated_at_utc": "2026-11-11T01:44:12.451Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-09",
@@ -25,9 +25,9 @@
   "bb_lower": 556.14,
   "bb_percent_b": 0.42,
   "bb_width_pct": 30.86,
-  "volume": 19106400,
-  "volume_ma20": 24875575,
-  "volume_ratio": 0.768,
+  "volume": 19143300,
+  "volume_ma20": 24877420,
+  "volume_ratio": 0.77,
   "volume_signal": "NORMAL",
   "atr14": 25.07,
   "adx14": 40.84,
@@ -55,8 +55,8 @@
   "bbLower": 556.14,
   "bbPercentB": 0.42,
   "bbWidthPct": 30.86,
-  "volumeMA20": 24875575,
-  "volumeRatio": 0.768,
+  "volumeMA20": 24877420,
+  "volumeRatio": 0.77,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -17.75,
   "fromLow52Pct": 23.28,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "c2536be81a7d758cd36428714c009fe88ba94e1bef6df7c42b686a819dd2d28d"
+  "rows_hash": "c7c466218068b6f085b9cfe1a6c3cabf12b2e1c65ed09f740964adf0f77d4fef"
 }

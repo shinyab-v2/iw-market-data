@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "PLTR",
-  "updated_at_utc": "2026-11-10T03:58:14.003Z",
+  "updated_at_utc": "2026-11-11T01:44:14.270Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-09",
@@ -25,9 +25,9 @@
   "bb_lower": 158.16,
   "bb_percent_b": 0.1843,
   "bb_width_pct": 31.86,
-  "volume": 23801800,
-  "volume_ma20": 26484530,
-  "volume_ratio": 0.899,
+  "volume": 23856900,
+  "volume_ma20": 26487285,
+  "volume_ratio": 0.901,
   "volume_signal": "NORMAL",
   "atr14": 9.72,
   "adx14": 35.75,
@@ -55,8 +55,8 @@
   "bbLower": 158.16,
   "bbPercentB": 0.1843,
   "bbWidthPct": 31.86,
-  "volumeMA20": 26484530,
-  "volumeRatio": 0.899,
+  "volumeMA20": 26487285,
+  "volumeRatio": 0.901,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -20.54,
   "fromLow52Pct": 59.07,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "8bc67804ddcfe663bc3bcef29b524e889d1c7b4207cff92cb6808664ab146780"
+  "rows_hash": "0701317e22192f569f8884a19afa4aa162155565a15d6e06739e3965ac1d2588"
 }
