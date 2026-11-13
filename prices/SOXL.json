@@ -1,9 +1,9 @@
 {
   "ticker": "SOXL",
-  "updatedAt": "2026-11-12T02:43:14.588Z",
+  "updatedAt": "2026-11-13T02:26:37.809Z",
   "currency": "USD",
   "market": "US",
-  "rows_hash": "d46744edff6d6f51618a36bc2b605d522acb52a4911f4a91fbc27ad835fef006",
+  "rows_hash": "9c3047feb08fa403b102dcf7a5e564a42d2f54112ee80e7b5e8125c9468bff61",
   "rows": [
     {
       "d": "2024-11-13",
@@ -4003,7 +4003,7 @@
       "h": 69.73,
       "l": 60.86,
       "c": 66.03,
-      "v": 230424800
+      "v": 237699600
     }
   ]
 }

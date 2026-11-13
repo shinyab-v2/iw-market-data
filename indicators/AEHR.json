@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "AEHR",
-  "updated_at_utc": "2026-11-12T02:43:16.944Z",
+  "updated_at_utc": "2026-11-13T02:26:42.031Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-11",
@@ -25,9 +25,9 @@
   "bb_lower": 49.33,
   "bb_percent_b": 0.7838,
   "bb_width_pct": 35.08,
-  "volume": 2853600,
-  "volume_ma20": 3132795,
-  "volume_ratio": 0.911,
+  "volume": 2932700,
+  "volume_ma20": 3136750,
+  "volume_ratio": 0.935,
   "volume_signal": "NORMAL",
   "atr14": 8.01,
   "adx14": 51.03,
@@ -55,8 +55,8 @@
   "bbLower": 49.33,
   "bbPercentB": 0.7838,
   "bbWidthPct": 35.08,
-  "volumeMA20": 3132795,
-  "volumeRatio": 0.911,
+  "volumeMA20": 3136750,
+  "volumeRatio": 0.935,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -55.37,
   "fromLow52Pct": 251.76,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "6f4ca3644c2de8f218d2851112527e1ed444da1d22da5a90b9994e5fbbe50521"
+  "rows_hash": "c875bdb7e5f48885d1e7f419ca1041e30673cfea7cc26135ef52f4d138d752a5"
 }

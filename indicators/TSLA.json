@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "TSLA",
-  "updated_at_utc": "2026-11-12T02:43:15.138Z",
+  "updated_at_utc": "2026-11-13T02:26:38.747Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-11",
@@ -25,9 +25,9 @@
   "bb_lower": 344.97,
   "bb_percent_b": 0.6221,
   "bb_width_pct": 19.31,
-  "volume": 27735900,
-  "volume_ma20": 40784090,
-  "volume_ratio": 0.68,
+  "volume": 27872700,
+  "volume_ma20": 40790930,
+  "volume_ratio": 0.683,
   "volume_signal": "LOW",
   "atr14": 16.61,
   "adx14": 16.09,
@@ -55,8 +55,8 @@
   "bbLower": 344.97,
   "bbPercentB": 0.6221,
   "bbWidthPct": 19.31,
-  "volumeMA20": 40784090,
-  "volumeRatio": 0.68,
+  "volumeMA20": 40790930,
+  "volumeRatio": 0.683,
   "volumeSignal": "LOW",
   "fromHigh52Pct": -21.65,
   "fromLow52Pct": 31.43,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "71ac394f12a796a81956c79f9839b1059d9dccf711c5405deecd30fd45109f73"
+  "rows_hash": "8bbbbe97cb93bb016b7df65965cc6322c071989d10d60b9bdef6c476998d9d18"
 }

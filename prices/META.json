@@ -1,9 +1,9 @@
 {
   "ticker": "META",
-  "updatedAt": "2026-11-12T02:43:15.474Z",
+  "updatedAt": "2026-11-13T02:26:39.469Z",
   "currency": "USD",
   "market": "US",
-  "rows_hash": "49368964fc3e0dd017a6df662ef61ebf61d98f544484e6363701fb95f02787e2",
+  "rows_hash": "bff7c054fd9fe343b37c239867c61b981ff74f8aa0d4dab111aaae855f58e5e1",
   "rows": [
     {
       "d": "2024-11-13",
@@ -4003,7 +4003,7 @@
       "h": 648.45,
       "l": 627.97,
       "c": 628.77,
-      "v": 15533900
+      "v": 15628600
     }
   ]
 }

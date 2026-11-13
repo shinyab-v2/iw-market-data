@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "SOXL",
-  "updated_at_utc": "2026-11-12T02:43:14.589Z",
+  "updated_at_utc": "2026-11-13T02:26:37.811Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-11",
@@ -25,9 +25,9 @@
   "bb_lower": 38.99,
   "bb_percent_b": 0.3227,
   "bb_width_pct": 103.58,
-  "volume": 230424800,
-  "volume_ma20": 174645210,
-  "volume_ratio": 1.319,
+  "volume": 237699600,
+  "volume_ma20": 175008950,
+  "volume_ratio": 1.358,
   "volume_signal": "NORMAL",
   "atr14": 13.06,
   "adx14": 53.59,
@@ -55,8 +55,8 @@
   "bbLower": 38.99,
   "bbPercentB": 0.3227,
   "bbWidthPct": 103.58,
-  "volumeMA20": 174645210,
-  "volumeRatio": 1.319,
+  "volumeMA20": 175008950,
+  "volumeRatio": 1.358,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -78.14,
   "fromLow52Pct": 134.82,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "d46744edff6d6f51618a36bc2b605d522acb52a4911f4a91fbc27ad835fef006"
+  "rows_hash": "9c3047feb08fa403b102dcf7a5e564a42d2f54112ee80e7b5e8125c9468bff61"
 }

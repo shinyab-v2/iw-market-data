@@ -1,9 +1,9 @@
 {
   "ticker": "MSFT",
-  "updatedAt": "2026-11-12T02:43:15.375Z",
+  "updatedAt": "2026-11-13T02:26:39.292Z",
   "currency": "USD",
   "market": "US",
-  "rows_hash": "9da4468e9dd91e20d317d0a353113124f4943800f3927100ccdbaa1c11ba3b9d",
+  "rows_hash": "c6f7671b5cfb6cc040debae3f2095525df37df538e1f91104c18d4fe25841060",
   "rows": [
     {
       "d": "2024-11-13",
@@ -4003,7 +4003,7 @@
       "h": 534.76,
       "l": 518.45,
       "c": 521.13,
-      "v": 28990100
+      "v": 29076800
     }
   ]
 }

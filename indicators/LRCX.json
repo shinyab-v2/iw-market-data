@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "LRCX",
-  "updated_at_utc": "2026-11-12T02:43:15.781Z",
+  "updated_at_utc": "2026-11-13T02:26:40.006Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-11",
@@ -25,9 +25,9 @@
   "bb_lower": 191.69,
   "bb_percent_b": 0.4727,
   "bb_width_pct": 39.21,
-  "volume": 11117500,
-  "volume_ma20": 14061945,
-  "volume_ratio": 0.791,
+  "volume": 11141600,
+  "volume_ma20": 14063150,
+  "volume_ratio": 0.792,
   "volume_signal": "NORMAL",
   "atr14": 16.86,
   "adx14": 56.37,
@@ -55,8 +55,8 @@
   "bbLower": 191.69,
   "bbPercentB": 0.4727,
   "bbWidthPct": 39.21,
-  "volumeMA20": 14061945,
-  "volumeRatio": 0.791,
+  "volumeMA20": 14063150,
+  "volumeRatio": 0.792,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -46.21,
   "fromLow52Pct": 74.08,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "fb5012509ac5c4fdb591a27ebb058ddb516750b9c3da103eb8d501b1087aa21a"
+  "rows_hash": "13998a591bebf23d6099813197e101452544305fa71ac00440f0e6ca559c131a"
 }

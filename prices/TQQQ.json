@@ -1,9 +1,9 @@
 {
   "ticker": "TQQQ",
-  "updatedAt": "2026-11-12T02:43:14.704Z",
+  "updatedAt": "2026-11-13T02:26:37.988Z",
   "currency": "USD",
   "market": "US",
-  "rows_hash": "eac8673e43a0639e235f1437563408bc36e7ac905d74836cae1b0e186d802b37",
+  "rows_hash": "b1b8a16c1a97eddb54bdc013b99ec4b0481c30835ac1982d8523e8f05826fe9b",
   "rows": [
     {
       "d": "2024-11-13",
@@ -4003,7 +4003,7 @@
       "h": 61.77,
       "l": 58.75,
       "c": 60.44,
-      "v": 66455000
+      "v": 68297400
     }
   ]
 }

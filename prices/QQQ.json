@@ -1,9 +1,9 @@
 {
   "ticker": "QQQ",
-  "updatedAt": "2026-11-12T02:43:14.800Z",
+  "updatedAt": "2026-11-13T02:26:38.187Z",
   "currency": "USD",
   "market": "US",
-  "rows_hash": "594a66f0a46c66e5dab7e1de7ec1ce726c30517e05ce5e9fac1c754ae9bc5936",
+  "rows_hash": "f23142bd4c1faa71c4eea666fe9c4d12b613b6f41bbac58b1c72e82a079b58a5",
   "rows": [
     {
       "d": "2024-11-13",
@@ -4003,7 +4003,7 @@
       "h": 695.57,
       "l": 683.56,
       "c": 690.38,
-      "v": 44294400
+      "v": 44871800
     }
   ]
 }

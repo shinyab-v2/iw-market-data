@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "QCOM",
-  "updated_at_utc": "2026-11-12T02:43:16.301Z",
+  "updated_at_utc": "2026-11-13T02:26:40.832Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-11",
@@ -25,9 +25,9 @@
   "bb_lower": 158.21,
   "bb_percent_b": 0.6067,
   "bb_width_pct": 17.46,
-  "volume": 14342200,
-  "volume_ma20": 13996360,
-  "volume_ratio": 1.025,
+  "volume": 14391100,
+  "volume_ma20": 13998805,
+  "volume_ratio": 1.028,
   "volume_signal": "NORMAL",
   "atr14": 9.21,
   "adx14": 20.75,
@@ -55,8 +55,8 @@
   "bbLower": 158.21,
   "bbPercentB": 0.6067,
   "bbWidthPct": 17.46,
-  "volumeMA20": 13996360,
-  "volumeRatio": 1.025,
+  "volumeMA20": 13998805,
+  "volumeRatio": 1.028,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -32.07,
   "fromLow52Pct": 44.74,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "489371c89c6ea71de5b3ed242f785c354ccc434d360f36110f6b006a4717a4e5"
+  "rows_hash": "fc11e50ce0b23a14dbbb2400a89ff67c0932b64196bc2081d668a77c005c0c9c"
 }

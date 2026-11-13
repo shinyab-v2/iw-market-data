@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "QQQ",
-  "updated_at_utc": "2026-11-12T02:43:14.801Z",
+  "updated_at_utc": "2026-11-13T02:26:38.189Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-11",
@@ -25,9 +25,9 @@
   "bb_lower": 652.4,
   "bb_percent_b": 0.4081,
   "bb_width_pct": 13.32,
-  "volume": 44294400,
-  "volume_ma20": 51191380,
-  "volume_ratio": 0.865,
+  "volume": 44871800,
+  "volume_ma20": 51220250,
+  "volume_ratio": 0.876,
   "volume_signal": "NORMAL",
   "atr14": 16.4,
   "adx14": 51.16,
@@ -55,8 +55,8 @@
   "bbLower": 652.4,
   "bbPercentB": 0.4081,
   "bbWidthPct": 13.32,
-  "volumeMA20": 51191380,
-  "volumeRatio": 0.865,
+  "volumeMA20": 51220250,
+  "volumeRatio": 0.876,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -9.5,
   "fromLow52Pct": 24.26,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "594a66f0a46c66e5dab7e1de7ec1ce726c30517e05ce5e9fac1c754ae9bc5936"
+  "rows_hash": "f23142bd4c1faa71c4eea666fe9c4d12b613b6f41bbac58b1c72e82a079b58a5"
 }

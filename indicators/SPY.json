@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "SPY",
-  "updated_at_utc": "2026-11-12T02:43:14.908Z",
+  "updated_at_utc": "2026-11-13T02:26:38.379Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-11",
@@ -25,9 +25,9 @@
   "bb_lower": 737.37,
   "bb_percent_b": 0.4915,
   "bb_width_pct": 6.01,
-  "volume": 38854000,
-  "volume_ma20": 48494295,
-  "volume_ratio": 0.801,
+  "volume": 39151000,
+  "volume_ma20": 48509145,
+  "volume_ratio": 0.807,
   "volume_signal": "NORMAL",
   "atr14": 11.06,
   "adx14": 29.55,
@@ -55,8 +55,8 @@
   "bbLower": 737.37,
   "bbPercentB": 0.4915,
   "bbWidthPct": 6.01,
-  "volumeMA20": 48494295,
-  "volumeRatio": 0.801,
+  "volumeMA20": 48509145,
+  "volumeRatio": 0.807,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -2.79,
   "fromLow52Pct": 20.74,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "1410ba83939a1f7937013b604f47a49fedb930419fa850a708b39b5f82136085"
+  "rows_hash": "1333622a70790c13847f9f9a26ae4bed636a0960f80a590e414b3ed6f63dc7ea"
 }

@@ -1,9 +1,9 @@
 {
   "ticker": "NVDA",
-  "updatedAt": "2026-11-12T02:43:15.025Z",
+  "updatedAt": "2026-11-13T02:26:38.561Z",
   "currency": "USD",
   "market": "US",
-  "rows_hash": "7854603b44d9763c6ca9c4ea442b310e8b3fd60adc9bd2b218369062e75b232a",
+  "rows_hash": "fbeb06c9aaa04b91b784af8065ec122534219bc94e6445cc9309a772ad3ffcd9",
   "rows": [
     {
       "d": "2024-11-13",
@@ -4003,7 +4003,7 @@
       "h": 177.54,
       "l": 170.77,
       "c": 173.73,
-      "v": 313417400
+      "v": 339214800
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "TQQQ",
-  "updated_at_utc": "2026-11-12T02:43:14.705Z",
+  "updated_at_utc": "2026-11-13T02:26:37.990Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-11",
@@ -25,9 +25,9 @@
   "bb_lower": 50.67,
   "bb_percent_b": 0.3519,
   "bb_width_pct": 43,
-  "volume": 66455000,
-  "volume_ma20": 82188925,
-  "volume_ratio": 0.809,
+  "volume": 68297400,
+  "volume_ma20": 82281045,
+  "volume_ratio": 0.83,
   "volume_signal": "NORMAL",
   "atr14": 4.46,
   "adx14": 53.17,
@@ -55,8 +55,8 @@
   "bbLower": 50.67,
   "bbPercentB": 0.3519,
   "bbWidthPct": 43,
-  "volumeMA20": 82188925,
-  "volumeRatio": 0.809,
+  "volumeMA20": 82281045,
+  "volumeRatio": 0.83,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -31.39,
   "fromLow52Pct": 61.95,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "eac8673e43a0639e235f1437563408bc36e7ac905d74836cae1b0e186d802b37"
+  "rows_hash": "b1b8a16c1a97eddb54bdc013b99ec4b0481c30835ac1982d8523e8f05826fe9b"
 }

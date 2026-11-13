@@ -1,9 +1,9 @@
 {
   "ticker": "ARM",
-  "updatedAt": "2026-11-12T02:43:16.467Z",
+  "updatedAt": "2026-11-13T02:26:41.124Z",
   "currency": "USD",
   "market": "US",
-  "rows_hash": "c906f6db6c9b34a36457a16a2c150426f5dc4e6c816ccbf02bd8743a6ea6fe05",
+  "rows_hash": "5b44a35e88b058b235ac0cb0a4be1d4a9de7ea46c6943765f622307f72b88819",
   "rows": [
     {
       "d": "2024-11-13",
@@ -4003,7 +4003,7 @@
       "h": 207.44,
       "l": 188.425,
       "c": 203.36,
-      "v": 6769800
+      "v": 6801200
     }
   ]
 }
