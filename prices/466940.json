@@ -1,9 +1,9 @@
 {
   "ticker": "466940",
-  "updatedAt": "2026-11-13T02:26:37.268Z",
+  "updatedAt": "2026-11-14T01:59:08.757Z",
   "currency": "KRW",
   "market": "KRX",
-  "rows_hash": "97a18d5028f37e7a5efc1e49af081a25a165cea33eec944727cfe8f6222145dc",
+  "rows_hash": "fc639a59e21988bd848bcf432e3e0ea6fac9c548ea7572c26eaf114195bea0aa",
   "rows": [
     {
       "d": "2024-10-25",
@@ -4002,8 +4002,8 @@
       "o": 23165,
       "h": 23980,
       "l": 23140,
-      "c": 23745,
-      "v": 275927
+      "c": 23765,
+      "v": 407021
     }
   ]
 }
