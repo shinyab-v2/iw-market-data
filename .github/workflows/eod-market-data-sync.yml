@@ -1,6 +1,11 @@
 name: EOD Market Data Sync
 
 on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/eod-market-data-sync.yml'
   schedule:
     # Run at 22:00 UTC Mon-Fri (07:00 KST Tue-Sat, after KR & US close)
     - cron: '0 22 * * 1-5'
@@ -12,17 +17,35 @@ on:
         default: 'false'
 
 concurrency:
-  group: eod-market-data-sync
-  cancel-in-progress: false
+  group: ${{ github.event_name == 'pull_request' && format('market-data-pr-{0}', github.event.pull_request.number) || 'eod-market-data-sync' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
+  validate:
+    name: Market Data Regression
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Test paired publishing and KRX EOD cutoff
+        run: |
+          node scripts/build-market-data.test.mjs
+          node scripts/krx-eod.test.mjs
+
   sync-market-data:
     name: Sync EOD Prices and Indicators
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
