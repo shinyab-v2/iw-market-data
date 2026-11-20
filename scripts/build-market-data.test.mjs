@@ -10,7 +10,7 @@ const pricesDir = path.join(root, 'prices');
 const indicatorsDir = path.join(root, 'indicators');
 const date = new Intl.DateTimeFormat('en-CA', {
   timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit'
-}).format(new Date());
+}).format(new Date('2026-11-20T07:00:00Z'));
 const prior = new Date(Date.parse(date) - 86400000).toISOString().slice(0, 10);
 const responseFor = (days) => days.map(day =>
   `<item data="${day.replaceAll('-', '')}|10|12|9|11|100"/>`).join('');
@@ -20,7 +20,7 @@ const originalFetch = globalThis.fetch;
 try {
   fs.writeFileSync(universeFile, JSON.stringify({ symbols: [{ ticker: '005930', market: 'KRX' }] }));
   globalThis.fetch = async () => ({ ok: true, text: async () => responseFor(days) });
-  const options = { universeFile, pricesDir, indicatorsDir };
+  const options = { universeFile, pricesDir, indicatorsDir, now: new Date('2026-11-20T07:00:00Z') };
   const first = await runBuild(options);
   assert.equal(first.pricesUpdated, 1);
   assert.equal(first.indicatorsUpdated, 1);
@@ -42,7 +42,7 @@ try {
   assert.equal(fs.readFileSync(pricesFile, 'utf8'), rawPrices);
 
   fs.writeFileSync(universeFile, JSON.stringify({ symbols: [{ ticker: 'SOXL', market: 'US' }] }));
-  const nyDate = formatNyDate(Date.now() / 1000);
+  const nyDate = formatNyDate(options.now.getTime() / 1000);
   const lastBar = Date.parse(nyDate + 'T16:00:00Z') / 1000;
   function yahooBars(count) {
     const timestamp = Array.from({length: count}, (_, i) => lastBar - (count - 1 - i) * 86400);

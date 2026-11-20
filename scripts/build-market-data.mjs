@@ -170,6 +170,19 @@ async function fetchUs(ticker, count = 500) {
   }
 }
 
+export function selectDomesticEodRows(rows, now, count = 500) {
+  // Capture time before fetching: a request started during the closing auction
+  // must not become eligible merely because the HTTP response arrives later.
+  const parts = Object.fromEntries(new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', hourCycle: 'h23'
+  }).formatToParts(now).map(part => [part.type, part.value]));
+  const today = `${parts.year}-${parts.month}-${parts.day}`;
+  const beforeClose = Number(parts.hour) * 60 + Number(parts.minute) < 15 * 60 + 30;
+  // Leave future dates in place so the existing unsafe-history gate rejects them.
+  return rows.filter(row => !beforeClose || row.d !== today).slice(-count);
+}
+
 // -------------------------------------------------------------
 // Technical Indicators Pre-computation Engine
 // -------------------------------------------------------------
@@ -477,7 +490,8 @@ export async function runBuild({
   pricesDir = PRICES_DIR,
   indicatorsDir = INDICATORS_DIR,
   count = 500,
-  dryRun = false
+  dryRun = false,
+  now = new Date()
 } = {}) {
   if (!fs.existsSync(pricesDir)) {
     fs.mkdirSync(pricesDir, { recursive: true });
@@ -508,7 +522,9 @@ export async function runBuild({
 
     let result = null;
     if (isKr) {
-      result = await fetchDomestic(ticker, count);
+      // Fetch a spare bar before dropping today's unconfirmed KRX candle.
+      result = await fetchDomestic(ticker, count + 1);
+      result.rows = selectDomesticEodRows(result.rows, now, count);
     } else {
       result = await fetchUs(ticker, count);
     }
@@ -534,7 +550,6 @@ export async function runBuild({
     const lastRow = result.rows.at(-1);
     const previousRows = existingPrice?.rows || [];
     const lastPublished = previousRows.at(-1)?.d;
-    const now = new Date();
     const today = isKr
       ? new Intl.DateTimeFormat('en-CA', {timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit'}).format(now)
       : formatNyDate(now.getTime() / 1000);
