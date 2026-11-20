@@ -1,9 +1,9 @@
 {
   "ticker": "PLTR",
-  "updatedAt": "2026-11-19T02:56:55.144Z",
+  "updatedAt": "2026-11-20T02:51:46.172Z",
   "currency": "USD",
   "market": "US",
-  "rows_hash": "90a7c5da1db771c82e6c14eb6a817a53af51cdff3e23f9badc32901600df6cdb",
+  "rows_hash": "93efa09650298e9c6f0c7bcc148b2d673af0e83a70d0eaafe7e17085358d600f",
   "rows": [
     {
       "d": "2024-11-20",
@@ -4003,7 +4003,7 @@
       "h": 158.44,
       "l": 153.5,
       "c": 156.67,
-      "v": 14790500
+      "v": 14922400
     }
   ]
 }

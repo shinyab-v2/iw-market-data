@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "BE",
-  "updated_at_utc": "2026-11-19T02:56:53.379Z",
+  "updated_at_utc": "2026-11-20T02:51:44.655Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-18",
@@ -25,9 +25,9 @@
   "bb_lower": 160.72,
   "bb_percent_b": 0.1409,
   "bb_width_pct": 36.95,
-  "volume": 11305400,
-  "volume_ma20": 18499015,
-  "volume_ratio": 0.611,
+  "volume": 11515200,
+  "volume_ma20": 18509505,
+  "volume_ratio": 0.622,
   "volume_signal": "LOW",
   "atr14": 20.63,
   "adx14": 33.9,
@@ -55,8 +55,8 @@
   "bbLower": 160.72,
   "bbPercentB": 0.1409,
   "bbWidthPct": 36.95,
-  "volumeMA20": 18499015,
-  "volumeRatio": 0.611,
+  "volumeMA20": 18509505,
+  "volumeRatio": 0.622,
   "volumeSignal": "LOW",
   "fromHigh52Pct": -51.33,
   "fromLow52Pct": 125.87,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "9d509f72bc84f8303a5a24e62599a950bbc6d012d7982b215e4af419420b39ec"
+  "rows_hash": "faa56a3d49fa716e5ae69cdae2d7bec5dbffd8e36f3d5632828407b39980d938"
 }

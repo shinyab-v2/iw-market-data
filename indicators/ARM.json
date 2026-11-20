@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "ARM",
-  "updated_at_utc": "2026-11-19T02:56:54.799Z",
+  "updated_at_utc": "2026-11-20T02:51:45.841Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-18",
@@ -25,9 +25,9 @@
   "bb_lower": 159.74,
   "bb_percent_b": 0.2946,
   "bb_width_pct": 39.3,
-  "volume": 4346700,
-  "volume_ma20": 5943300,
-  "volume_ratio": 0.731,
+  "volume": 4394500,
+  "volume_ma20": 5945690,
+  "volume_ratio": 0.739,
   "volume_signal": "NORMAL",
   "atr14": 15.51,
   "adx14": 36.36,
@@ -55,8 +55,8 @@
   "bbLower": 159.74,
   "bbPercentB": 0.2946,
   "bbWidthPct": 39.3,
-  "volumeMA20": 5943300,
-  "volumeRatio": 0.731,
+  "volumeMA20": 5945690,
+  "volumeRatio": 0.739,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -59.63,
   "fromLow52Pct": 82.72,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "3f5b73d3402266d3ca6153e8c7456ad173e2b00f6699cf929aa2c66741fc9ec0"
+  "rows_hash": "fe360fa5f69558d0d7df40288e9097c484299a4fb915a556135553ed7acf9979"
 }
