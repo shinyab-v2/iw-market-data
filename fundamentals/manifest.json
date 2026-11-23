@@ -1,6 +1,6 @@
 {
   "schema_version": "fundamental-manifest.v1",
-  "updated_at_utc": "2026-11-23T14:35:18.821Z",
+  "updated_at_utc": "2026-11-23T14:35:35.570Z",
   "tickers": {
     "FSLY": {
       "latest_hash": "d09ca6e5b5112897c5a16f5237408e1ec20f197498e30194a9bd30141e9da867",
@@ -100,6 +100,60 @@
       "canonical_path": "fundamentals/LRCX.json",
       "quarters_count": 8,
       "updated_at_utc": "2026-11-23T14:35:18.821Z"
+    },
+    "AMAT": {
+      "latest_hash": "48f726af12d05f3abe419395ecf2c1c719ba134151bb8a08e48872ae42cf9f62",
+      "latest_period": "2026-07-26",
+      "filing_date": "2026-08-20",
+      "path": "fundamentals/versions/AMAT/48f726af12d05f3abe419395ecf2c1c719ba134151bb8a08e48872ae42cf9f62.json",
+      "canonical_path": "fundamentals/AMAT.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T14:35:31.462Z"
+    },
+    "AVGO": {
+      "latest_hash": "792092dd8974b930808672d493dd7bf66d672d335a835e2a44c928e790a0622c",
+      "latest_period": "2026-08-02",
+      "filing_date": "2026-09-10",
+      "path": "fundamentals/versions/AVGO/792092dd8974b930808672d493dd7bf66d672d335a835e2a44c928e790a0622c.json",
+      "canonical_path": "fundamentals/AVGO.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T14:35:32.555Z"
+    },
+    "QCOM": {
+      "latest_hash": "d5f46ac2ac6cbb1dc1aa2a7815ddec646ebda2d5b4659e6fe67f5aa6df1b7d49",
+      "latest_period": "2026-09-27",
+      "filing_date": "2026-11-04",
+      "path": "fundamentals/versions/QCOM/d5f46ac2ac6cbb1dc1aa2a7815ddec646ebda2d5b4659e6fe67f5aa6df1b7d49.json",
+      "canonical_path": "fundamentals/QCOM.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T14:35:33.002Z"
+    },
+    "PLTR": {
+      "latest_hash": "a2a3b3eb81af9e639160e6d4a39e56703ba80d49de83308966b66320b85674c0",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-03",
+      "path": "fundamentals/versions/PLTR/a2a3b3eb81af9e639160e6d4a39e56703ba80d49de83308966b66320b85674c0.json",
+      "canonical_path": "fundamentals/PLTR.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T14:35:33.830Z"
+    },
+    "AEHR": {
+      "latest_hash": "6a27442c6977cce943bc173360cbfd5679f5e15fdcf889720431d45c305837c5",
+      "latest_period": "2026-09-25",
+      "filing_date": "2026-11-06",
+      "path": "fundamentals/versions/AEHR/6a27442c6977cce943bc173360cbfd5679f5e15fdcf889720431d45c305837c5.json",
+      "canonical_path": "fundamentals/AEHR.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T14:35:35.111Z"
+    },
+    "SHOP": {
+      "latest_hash": "437067b242abedf6fac0cbbe0beb4368f22bcdaf9d4d0cc0a7cae2cd5e19199c",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-03",
+      "path": "fundamentals/versions/SHOP/437067b242abedf6fac0cbbe0beb4368f22bcdaf9d4d0cc0a7cae2cd5e19199c.json",
+      "canonical_path": "fundamentals/SHOP.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T14:35:35.570Z"
     }
   }
 }
