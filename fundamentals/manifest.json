@@ -1,6 +1,6 @@
 {
   "schema_version": "fundamental-manifest.v1",
-  "updated_at_utc": "2026-11-23T14:35:35.570Z",
+  "updated_at_utc": "2026-11-23T14:36:42.542Z",
   "tickers": {
     "FSLY": {
       "latest_hash": "d09ca6e5b5112897c5a16f5237408e1ec20f197498e30194a9bd30141e9da867",
@@ -154,6 +154,24 @@
       "canonical_path": "fundamentals/SHOP.json",
       "quarters_count": 8,
       "updated_at_utc": "2026-11-23T14:35:35.570Z"
+    },
+    "PI": {
+      "latest_hash": "21e90757f13e727d8c432af2614fb41817b8ff0fd6d11885211075ca10a7f9d3",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-10-28",
+      "path": "fundamentals/versions/PI/21e90757f13e727d8c432af2614fb41817b8ff0fd6d11885211075ca10a7f9d3.json",
+      "canonical_path": "fundamentals/PI.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T14:36:41.776Z"
+    },
+    "SMTC": {
+      "latest_hash": "868444964c7b5bb9da239388e69d043ec2d33ced5cf6ae72b5930157a889a7dc",
+      "latest_period": "2026-04-26",
+      "filing_date": "2026-05-27",
+      "path": "fundamentals/versions/SMTC/868444964c7b5bb9da239388e69d043ec2d33ced5cf6ae72b5930157a889a7dc.json",
+      "canonical_path": "fundamentals/SMTC.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T14:36:42.542Z"
     }
   }
 }
