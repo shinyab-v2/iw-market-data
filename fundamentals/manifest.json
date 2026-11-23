@@ -1,0 +1,42 @@
+{
+  "schema_version": "fundamental-manifest.v1",
+  "updated_at_utc": "2026-11-23T13:49:32.636Z",
+  "tickers": {
+    "FSLY": {
+      "latest_hash": "d09ca6e5b5112897c5a16f5237408e1ec20f197498e30194a9bd30141e9da867",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-04",
+      "path": "fundamentals/versions/FSLY/d09ca6e5b5112897c5a16f5237408e1ec20f197498e30194a9bd30141e9da867.json",
+      "canonical_path": "fundamentals/FSLY.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T13:49:32.459Z"
+    },
+    "MRVL": {
+      "latest_hash": "37eebdaf4ca6d7ffe29ee268b32f67c8d433b786e564607b705846c0f542ab7b",
+      "latest_period": "2026-08-01",
+      "filing_date": "2026-08-28",
+      "path": "fundamentals/versions/MRVL/37eebdaf4ca6d7ffe29ee268b32f67c8d433b786e564607b705846c0f542ab7b.json",
+      "canonical_path": "fundamentals/MRVL.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T13:49:32.493Z"
+    },
+    "META": {
+      "latest_hash": "81a24d3cfb2ce06e1ebf4540458f645d8fb96fa83d142b4585217a3d2cd2d6bf",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-10-22",
+      "path": "fundamentals/versions/META/81a24d3cfb2ce06e1ebf4540458f645d8fb96fa83d142b4585217a3d2cd2d6bf.json",
+      "canonical_path": "fundamentals/META.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T13:49:32.556Z"
+    },
+    "NFLX": {
+      "latest_hash": "5c06083697657bb771441453faf692fb99008cad8f1d7bc2f83c2a9d10a36c55",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-10-21",
+      "path": "fundamentals/versions/NFLX/5c06083697657bb771441453faf692fb99008cad8f1d7bc2f83c2a9d10a36c55.json",
+      "canonical_path": "fundamentals/NFLX.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T13:49:32.636Z"
+    }
+  }
+}

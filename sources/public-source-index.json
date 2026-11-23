@@ -1,0 +1,13 @@
+{
+  "schema_version": "public-source-index.v1",
+  "updated_at_utc": "2026-11-23T14:00:00.000Z",
+  "sources": {
+    "SEC_EDGAR": {
+      "name": "U.S. Securities and Exchange Commission EDGAR System",
+      "official_url": "https://www.sec.gov/edgar",
+      "api_endpoint": "https://data.sec.gov",
+      "license": "Public Domain / US Government Work",
+      "attribution": "SEC EDGAR Form 10-K, 10-Q, 8-K XBRL Company Facts"
+    }
+  }
+}
