@@ -5,7 +5,7 @@
   "company_name": "LAM RESEARCH CORPORATION",
   "currency": "USD",
   "accounting_standard": "US-GAAP",
-  "updated_at_utc": "2026-11-23T14:35:18.810Z",
+  "updated_at_utc": "2026-11-23T23:30:07.683Z",
   "latest_period": "2026-09-27",
   "quarters": [
     {
@@ -37,6 +37,8 @@
         "total_assets": 26353056000,
         "total_liabilities": 12444582000,
         "stockholders_equity": 13908474000,
+        "minority_interest": null,
+        "liabilities_and_equity": 26353056000,
         "shares_outstanding": 1249145000
       },
       "cash_flow": {
@@ -58,13 +60,13 @@
     },
     {
       "period_end": "2026-06-28",
-      "period_start": null,
-      "fiscal_year": 2027,
-      "fiscal_period": "Q1",
-      "form": "10-Q",
-      "filed_date": "2026-10-22",
-      "accession": "0000707549-26-000054",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000054/0000707549-26-000054-index.htm",
+      "period_start": "2025-06-30",
+      "fiscal_year": 2026,
+      "fiscal_period": "Q4",
+      "form": "10-K",
+      "filed_date": "2026-08-07",
+      "accession": "0000707549-26-000037",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/0000707549-26-000037-index.htm",
       "is_amendment": false,
       "income_statement": {
         "revenue": 6722238000,
@@ -73,7 +75,7 @@
         "net_income": 2277282000,
         "gaap_basic_eps": null,
         "gaap_diluted_eps": null,
-        "diluted_shares": 1251278000
+        "diluted_shares": null
       },
       "balance_sheet": {
         "cash_and_equivalents": 5579171000,
@@ -85,6 +87,8 @@
         "total_assets": 23529743000,
         "total_liabilities": 11058822000,
         "stockholders_equity": 12470921000,
+        "minority_interest": null,
+        "liabilities_and_equity": 23529743000,
         "shares_outstanding": 1251278000
       },
       "cash_flow": {
@@ -121,7 +125,7 @@
         "net_income": 1825460000,
         "gaap_basic_eps": 1.46,
         "gaap_diluted_eps": 1.45,
-        "diluted_shares": 1262792000
+        "diluted_shares": 1257325000
       },
       "balance_sheet": {
         "cash_and_equivalents": 4750936000,
@@ -133,6 +137,8 @@
         "total_assets": 20791910000,
         "total_liabilities": 10207131000,
         "stockholders_equity": 10584779000,
+        "minority_interest": null,
+        "liabilities_and_equity": 20791910000,
         "shares_outstanding": 1250539000
       },
       "cash_flow": {
@@ -169,7 +175,7 @@
         "net_income": 1593994000,
         "gaap_basic_eps": 1.27,
         "gaap_diluted_eps": 1.26,
-        "diluted_shares": 1265526000
+        "diluted_shares": 1261739000
       },
       "balance_sheet": {
         "cash_and_equivalents": 6180440000,
@@ -181,6 +187,8 @@
         "total_assets": 21391171000,
         "total_liabilities": 11245745000,
         "stockholders_equity": 10145426000,
+        "minority_interest": null,
+        "liabilities_and_equity": 21391171000,
         "shares_outstanding": 1251180000
       },
       "cash_flow": {
@@ -203,12 +211,12 @@
     {
       "period_end": "2025-09-28",
       "period_start": "2025-06-30",
-      "fiscal_year": 2027,
+      "fiscal_year": 2026,
       "fiscal_period": "Q1",
       "form": "10-Q",
-      "filed_date": "2026-10-22",
-      "accession": "0000707549-26-000054",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000054/0000707549-26-000054-index.htm",
+      "filed_date": "2025-10-24",
+      "accession": "0000707549-25-000085",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000085/0000707549-25-000085-index.htm",
       "is_amendment": false,
       "income_statement": {
         "revenue": 5324173000,
@@ -229,6 +237,8 @@
         "total_assets": 21900211000,
         "total_liabilities": 11707459000,
         "stockholders_equity": 10192752000,
+        "minority_interest": null,
+        "liabilities_and_equity": 21900211000,
         "shares_outstanding": 1259176000
       },
       "cash_flow": {
@@ -251,12 +261,12 @@
     {
       "period_end": "2025-06-29",
       "period_start": "2024-07-01",
-      "fiscal_year": 2026,
-      "fiscal_period": "FY",
+      "fiscal_year": 2025,
+      "fiscal_period": "Q4",
       "form": "10-K",
-      "filed_date": "2026-08-07",
-      "accession": "0000707549-26-000037",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/0000707549-26-000037-index.htm",
+      "filed_date": "2025-08-11",
+      "accession": "0000707549-25-000075",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000075/0000707549-25-000075-index.htm",
       "is_amendment": false,
       "income_statement": {
         "revenue": 5171393000,
@@ -265,7 +275,7 @@
         "net_income": 1720088000,
         "gaap_basic_eps": null,
         "gaap_diluted_eps": null,
-        "diluted_shares": 1290142000
+        "diluted_shares": null
       },
       "balance_sheet": {
         "cash_and_equivalents": 6407656000,
@@ -277,6 +287,8 @@
         "total_assets": 21345260000,
         "total_liabilities": 11483641000,
         "stockholders_equity": 9861619000,
+        "minority_interest": null,
+        "liabilities_and_equity": 21345260000,
         "shares_outstanding": 1268740000
       },
       "cash_flow": {
@@ -299,12 +311,12 @@
     {
       "period_end": "2025-03-30",
       "period_start": "2024-07-01",
-      "fiscal_year": 2026,
+      "fiscal_year": 2025,
       "fiscal_period": "Q3",
       "form": "10-Q",
-      "filed_date": "2026-04-23",
-      "accession": "0000707549-26-000022",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000022/0000707549-26-000022-index.htm",
+      "filed_date": "2025-04-25",
+      "accession": "0000707549-25-000054",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000054/0000707549-25-000054-index.htm",
       "is_amendment": false,
       "income_statement": {
         "revenue": 4720175000,
@@ -313,7 +325,7 @@
         "net_income": 1330667000,
         "gaap_basic_eps": 1.04,
         "gaap_diluted_eps": 1.03,
-        "diluted_shares": 1294545000
+        "diluted_shares": 1288100000
       },
       "balance_sheet": {
         "cash_and_equivalents": 5450718000,
@@ -325,6 +337,8 @@
         "total_assets": 19968310000,
         "total_liabilities": 10457205000,
         "stockholders_equity": 9511105000,
+        "minority_interest": null,
+        "liabilities_and_equity": 19968310000,
         "shares_outstanding": 1282957000
       },
       "cash_flow": {
@@ -347,12 +361,12 @@
     {
       "period_end": "2024-12-29",
       "period_start": "2024-07-01",
-      "fiscal_year": 2026,
+      "fiscal_year": 2025,
       "fiscal_period": "Q2",
       "form": "10-Q",
-      "filed_date": "2026-01-29",
-      "accession": "0000707549-26-000009",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000009/0000707549-26-000009-index.htm",
+      "filed_date": "2025-01-31",
+      "accession": "0000707549-25-000014",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000014/0000707549-25-000014-index.htm",
       "is_amendment": false,
       "income_statement": {
         "revenue": 4376047000,
@@ -361,7 +375,7 @@
         "net_income": 1191018000,
         "gaap_basic_eps": 0.93,
         "gaap_diluted_eps": 0.92,
-        "diluted_shares": 1297767000
+        "diluted_shares": 1291469000
       },
       "balance_sheet": {
         "cash_and_equivalents": 5665379000,
@@ -373,6 +387,8 @@
         "total_assets": 19839916000,
         "total_liabilities": 11031890000,
         "stockholders_equity": 8808026000,
+        "minority_interest": null,
+        "liabilities_and_equity": 19839916000,
         "shares_outstanding": 1284956000
       },
       "cash_flow": {
@@ -406,11 +422,14 @@
     "validation_checks": [
       "SEC_EDGAR_FACTS_VERIFIED",
       "QUARTER_YTD_DURATION_SEPARATED",
+      "BALANCE_SHEET_IDENTITY_VERIFIED",
+      "FCF_IDENTITY_VERIFIED",
       "ACCOUNTING_IDENTITIES_VERIFIED",
       "DATE_INTEGRITY_VERIFIED",
-      "NON_ETF_VERIFIED"
+      "NON_ETF_VERIFIED",
+      "SCHEMA_INTEGRITY_VERIFIED"
     ],
-    "verified_at_utc": "2026-11-23T14:35:18.811Z"
+    "verified_at_utc": "2026-11-23T23:30:07.683Z"
   },
-  "content_hash": "fd9c867a9927581659c68d37525defea3d30a618ac85cb61a3be9398becb37b9"
+  "content_hash": "e8379009a240499a1e32e68d6e50ea8e8a190dc676e6072d37512216c98897f1"
 }
