@@ -1,6 +1,6 @@
 {
   "schema_version": "fundamental-manifest.v1",
-  "updated_at_utc": "2026-11-23T13:49:32.636Z",
+  "updated_at_utc": "2026-11-23T14:35:18.821Z",
   "tickers": {
     "FSLY": {
       "latest_hash": "d09ca6e5b5112897c5a16f5237408e1ec20f197498e30194a9bd30141e9da867",
@@ -37,6 +37,69 @@
       "canonical_path": "fundamentals/NFLX.json",
       "quarters_count": 8,
       "updated_at_utc": "2026-11-23T13:49:32.636Z"
+    },
+    "NVDA": {
+      "latest_hash": "6e967b736a65c5898517d0e1b54872fca4e0ee35e169ec7405cbb2382c671016",
+      "latest_period": "2026-07-26",
+      "filing_date": "2026-08-26",
+      "path": "fundamentals/versions/NVDA/6e967b736a65c5898517d0e1b54872fca4e0ee35e169ec7405cbb2382c671016.json",
+      "canonical_path": "fundamentals/NVDA.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T14:35:15.819Z"
+    },
+    "TSLA": {
+      "latest_hash": "fa86c62963da31f115131b48de858a4683c53727511af9e996e0c9e07fcd0be9",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-10-22",
+      "path": "fundamentals/versions/TSLA/fa86c62963da31f115131b48de858a4683c53727511af9e996e0c9e07fcd0be9.json",
+      "canonical_path": "fundamentals/TSLA.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T14:35:16.463Z"
+    },
+    "AAPL": {
+      "latest_hash": "18bedb5f66d471c31aaad32dcbec963bfb14111262b84faa972215646341a4f9",
+      "latest_period": "2026-09-26",
+      "filing_date": "2026-11-03",
+      "path": "fundamentals/versions/AAPL/18bedb5f66d471c31aaad32dcbec963bfb14111262b84faa972215646341a4f9.json",
+      "canonical_path": "fundamentals/AAPL.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T14:35:16.842Z"
+    },
+    "MSFT": {
+      "latest_hash": "f911445f1a4a41714a080ad70263a8b5b76e8bc7eb7269a763eaedbab68a0bc6",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-10-28",
+      "path": "fundamentals/versions/MSFT/f911445f1a4a41714a080ad70263a8b5b76e8bc7eb7269a763eaedbab68a0bc6.json",
+      "canonical_path": "fundamentals/MSFT.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T14:35:17.670Z"
+    },
+    "BE": {
+      "latest_hash": "549064004a6d78a6c5ac69d1a18fd39f2be4dd011c81dd3a195ad27ad10630ae",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-10-22",
+      "path": "fundamentals/versions/BE/549064004a6d78a6c5ac69d1a18fd39f2be4dd011c81dd3a195ad27ad10630ae.json",
+      "canonical_path": "fundamentals/BE.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T14:35:18.038Z"
+    },
+    "AMD": {
+      "latest_hash": "1883fbe51357ad1821b7689b13ba2ac88d8737dd228acafa0bd5a67297265fa9",
+      "latest_period": "2026-09-26",
+      "filing_date": "2026-11-04",
+      "path": "fundamentals/versions/AMD/1883fbe51357ad1821b7689b13ba2ac88d8737dd228acafa0bd5a67297265fa9.json",
+      "canonical_path": "fundamentals/AMD.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T14:35:18.416Z"
+    },
+    "LRCX": {
+      "latest_hash": "fd9c867a9927581659c68d37525defea3d30a618ac85cb61a3be9398becb37b9",
+      "latest_period": "2026-09-27",
+      "filing_date": "2026-10-22",
+      "path": "fundamentals/versions/LRCX/fd9c867a9927581659c68d37525defea3d30a618ac85cb61a3be9398becb37b9.json",
+      "canonical_path": "fundamentals/LRCX.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-23T14:35:18.821Z"
     }
   }
 }
