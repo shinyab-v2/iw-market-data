@@ -21,6 +21,15 @@ bot commits. It is a historical access path.
   - Path: `universe/active.json`
 - **Computed Indicators:**
   - Path: `indicators/{ticker}.json`
+- **Corporate Fundamentals:**
+  - Canonical Path: `fundamentals/{ticker}.json` (e.g., `fundamentals/FSLY.json`)
+  - Versioned Path: `fundamentals/versions/{ticker}/{content_hash}.json`
+  - Manifest Path: `fundamentals/manifest.json`
+  - JSON Schema: `schemas/fundamental-v1.schema.json`
+- **Corporate Guidance & IR:**
+  - Manifest Path: `guidance/manifest.json`
+- **Public Sources Index:**
+  - Path: `sources/public-source-index.json`
 
 ## Price Schema (v1)
 
@@ -63,6 +72,7 @@ Offline regression checks (no provider calls or production writes):
 ```sh
 node scripts/build-market-data.test.mjs
 node scripts/krx-eod.test.mjs
+node scripts/financial-data.test.mjs
 ```
 
 ## Security & Privacy Note

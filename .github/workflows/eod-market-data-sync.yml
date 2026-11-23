@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/**'
+      - 'schemas/**'
       - '.github/workflows/eod-market-data-sync.yml'
   schedule:
     # Run at 22:00 UTC Mon-Fri (07:00 KST Tue-Sat, after KR & US close)
@@ -34,10 +35,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Test paired publishing and KRX EOD cutoff
+      - name: Test paired publishing, KRX EOD cutoff and financial data schemas
         run: |
           node scripts/build-market-data.test.mjs
           node scripts/krx-eod.test.mjs
+          node scripts/financial-data.test.mjs
 
   sync-market-data:
     name: Sync EOD Prices and Indicators
