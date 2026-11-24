@@ -2,10 +2,10 @@
   "schema_version": "fundamental-v1",
   "ticker": "AMD",
   "cik": "2488",
-  "company_name": "ADVANCED MICRO DEVICES, INC",
+  "company_name": "ADVANCED MICRO DEVICES INC",
   "currency": "USD",
   "accounting_standard": "US-GAAP",
-  "updated_at_utc": "2026-11-23T23:30:07.557Z",
+  "updated_at_utc": "2026-11-24T23:30:11.171Z",
   "latest_period": "2026-09-26",
   "quarters": [
     {
@@ -429,7 +429,7 @@
       "NON_ETF_VERIFIED",
       "SCHEMA_INTEGRITY_VERIFIED"
     ],
-    "verified_at_utc": "2026-11-23T23:30:07.558Z"
+    "verified_at_utc": "2026-11-24T23:30:11.171Z"
   },
-  "content_hash": "753361d165d5098825c33de482c2eac1e917deca631caa3b6116ecde02c1860a"
+  "content_hash": "0d1eeb6fdcf8f2c4ac5c45a5a91667dbe52e853e827d574829f2ab984aa528f8"
 }

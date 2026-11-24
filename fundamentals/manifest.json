@@ -1,6 +1,6 @@
 {
   "schema_version": "fundamental-manifest.v1",
-  "updated_at_utc": "2026-11-23T23:30:08.506Z",
+  "updated_at_utc": "2026-11-24T23:30:11.189Z",
   "tickers": {
     "FSLY": {
       "latest_hash": "5abe1ff4d6b4b792108409e40a97d4e897c1e8824bedfec5d99caa35d536a51a",
@@ -84,13 +84,13 @@
       "updated_at_utc": "2026-11-23T23:30:07.475Z"
     },
     "AMD": {
-      "latest_hash": "753361d165d5098825c33de482c2eac1e917deca631caa3b6116ecde02c1860a",
+      "latest_hash": "0d1eeb6fdcf8f2c4ac5c45a5a91667dbe52e853e827d574829f2ab984aa528f8",
       "latest_period": "2026-09-26",
       "filing_date": "2026-11-04",
-      "path": "fundamentals/versions/AMD/753361d165d5098825c33de482c2eac1e917deca631caa3b6116ecde02c1860a.json",
+      "path": "fundamentals/versions/AMD/0d1eeb6fdcf8f2c4ac5c45a5a91667dbe52e853e827d574829f2ab984aa528f8.json",
       "canonical_path": "fundamentals/AMD.json",
       "quarters_count": 8,
-      "updated_at_utc": "2026-11-23T23:30:07.579Z"
+      "updated_at_utc": "2026-11-24T23:30:11.189Z"
     },
     "LRCX": {
       "latest_hash": "e8379009a240499a1e32e68d6e50ea8e8a190dc676e6072d37512216c98897f1",
