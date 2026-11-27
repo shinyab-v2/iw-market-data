@@ -1,24 +1,24 @@
 {
   "schema_version": "fundamental-manifest.v1",
-  "updated_at_utc": "2026-11-24T23:30:11.189Z",
+  "updated_at_utc": "2026-11-27T04:58:44.313Z",
   "tickers": {
     "FSLY": {
-      "latest_hash": "5abe1ff4d6b4b792108409e40a97d4e897c1e8824bedfec5d99caa35d536a51a",
+      "latest_hash": "62ffdeeae2afcf00635aabbd37cdb79b684085a900c34d7130099a94c4d5c01a",
       "latest_period": "2026-09-30",
       "filing_date": "2026-11-04",
-      "path": "fundamentals/versions/FSLY/5abe1ff4d6b4b792108409e40a97d4e897c1e8824bedfec5d99caa35d536a51a.json",
+      "path": "fundamentals/versions/FSLY/62ffdeeae2afcf00635aabbd37cdb79b684085a900c34d7130099a94c4d5c01a.json",
       "canonical_path": "fundamentals/FSLY.json",
       "quarters_count": 8,
-      "updated_at_utc": "2026-11-23T23:30:06.690Z"
+      "updated_at_utc": "2026-11-27T04:58:27.392Z"
     },
     "MRVL": {
-      "latest_hash": "81a46cdd88dd74157837b5106c22454e13942bfed1b2f1b6c3b759f6779c611a",
+      "latest_hash": "c71d69ccf211755e3f3d6de764a271d6a2b190b3a6d72df483f57443bcd5445a",
       "latest_period": "2026-08-01",
       "filing_date": "2026-08-28",
-      "path": "fundamentals/versions/MRVL/81a46cdd88dd74157837b5106c22454e13942bfed1b2f1b6c3b759f6779c611a.json",
+      "path": "fundamentals/versions/MRVL/c71d69ccf211755e3f3d6de764a271d6a2b190b3a6d72df483f57443bcd5445a.json",
       "canonical_path": "fundamentals/MRVL.json",
       "quarters_count": 8,
-      "updated_at_utc": "2026-11-23T23:30:08.506Z"
+      "updated_at_utc": "2026-11-27T04:58:06.913Z"
     },
     "META": {
       "latest_hash": "f29379af545f95c0d441cadfdef37678d338c59a10160735fc78c0fd33bdd501",
@@ -30,22 +30,22 @@
       "updated_at_utc": "2026-11-23T23:30:07.369Z"
     },
     "NFLX": {
-      "latest_hash": "9581382913545b152e8e640782cc5a2a12bbb9c219317c956fbb1da150372273",
+      "latest_hash": "7ac3738ce2f42b4aa219d40e547ac338e905a3eb46ae0603badeb9f02d825f90",
       "latest_period": "2026-09-30",
       "filing_date": "2026-10-21",
-      "path": "fundamentals/versions/NFLX/9581382913545b152e8e640782cc5a2a12bbb9c219317c956fbb1da150372273.json",
+      "path": "fundamentals/versions/NFLX/7ac3738ce2f42b4aa219d40e547ac338e905a3eb46ae0603badeb9f02d825f90.json",
       "canonical_path": "fundamentals/NFLX.json",
       "quarters_count": 8,
-      "updated_at_utc": "2026-11-23T23:30:06.804Z"
+      "updated_at_utc": "2026-11-27T04:58:09.421Z"
     },
     "NVDA": {
-      "latest_hash": "1332353fb1b67451c5ce63d88056d0a0c1ae3169641d98e2807033b7c17bf2bd",
+      "latest_hash": "b313944e9c5a9e4802c312bf165264bee3898744d2aabedde7e90b2f47ca5a91",
       "latest_period": "2026-07-26",
       "filing_date": "2026-08-26",
-      "path": "fundamentals/versions/NVDA/1332353fb1b67451c5ce63d88056d0a0c1ae3169641d98e2807033b7c17bf2bd.json",
+      "path": "fundamentals/versions/NVDA/b313944e9c5a9e4802c312bf165264bee3898744d2aabedde7e90b2f47ca5a91.json",
       "canonical_path": "fundamentals/NVDA.json",
       "quarters_count": 8,
-      "updated_at_utc": "2026-11-23T23:30:06.928Z"
+      "updated_at_utc": "2026-11-27T04:58:10.442Z"
     },
     "TSLA": {
       "latest_hash": "3b785dd78afe7361ab51b5067712f77e29d764a098adf57597db748945e64323",
@@ -75,31 +75,31 @@
       "updated_at_utc": "2026-11-23T23:30:07.280Z"
     },
     "BE": {
-      "latest_hash": "5e6cffe32b443c0237184c5aa215f8ba2ee0f9e6ccf7ee7a8185d657d461d5dd",
+      "latest_hash": "2f137c08f429b622a0c4d7d02a906c0fad3c7221c64f27a9ad9cf4ae5b8987ac",
       "latest_period": "2026-09-30",
       "filing_date": "2026-10-22",
-      "path": "fundamentals/versions/BE/5e6cffe32b443c0237184c5aa215f8ba2ee0f9e6ccf7ee7a8185d657d461d5dd.json",
+      "path": "fundamentals/versions/BE/2f137c08f429b622a0c4d7d02a906c0fad3c7221c64f27a9ad9cf4ae5b8987ac.json",
       "canonical_path": "fundamentals/BE.json",
       "quarters_count": 8,
-      "updated_at_utc": "2026-11-23T23:30:07.475Z"
+      "updated_at_utc": "2026-11-27T04:57:58.425Z"
     },
     "AMD": {
-      "latest_hash": "0d1eeb6fdcf8f2c4ac5c45a5a91667dbe52e853e827d574829f2ab984aa528f8",
+      "latest_hash": "93feb0bc5141be018702f8c9b1f353b1d92786c55ae28671f951af901770976d",
       "latest_period": "2026-09-26",
       "filing_date": "2026-11-04",
-      "path": "fundamentals/versions/AMD/0d1eeb6fdcf8f2c4ac5c45a5a91667dbe52e853e827d574829f2ab984aa528f8.json",
+      "path": "fundamentals/versions/AMD/93feb0bc5141be018702f8c9b1f353b1d92786c55ae28671f951af901770976d.json",
       "canonical_path": "fundamentals/AMD.json",
       "quarters_count": 8,
-      "updated_at_utc": "2026-11-24T23:30:11.189Z"
+      "updated_at_utc": "2026-11-27T04:57:54.071Z"
     },
     "LRCX": {
-      "latest_hash": "e8379009a240499a1e32e68d6e50ea8e8a190dc676e6072d37512216c98897f1",
+      "latest_hash": "552fcf31b69268bff6b9b8d1c81858e2dff147676747cb5283d07d378c80b225",
       "latest_period": "2026-09-27",
       "filing_date": "2026-10-22",
-      "path": "fundamentals/versions/LRCX/e8379009a240499a1e32e68d6e50ea8e8a190dc676e6072d37512216c98897f1.json",
+      "path": "fundamentals/versions/LRCX/552fcf31b69268bff6b9b8d1c81858e2dff147676747cb5283d07d378c80b225.json",
       "canonical_path": "fundamentals/LRCX.json",
       "quarters_count": 8,
-      "updated_at_utc": "2026-11-23T23:30:07.706Z"
+      "updated_at_utc": "2026-11-27T04:58:05.760Z"
     },
     "AMAT": {
       "latest_hash": "94d4a44f5d1b828d6fc723beddfdc91775124630aebdaef1cc502b3b698bca8a",
@@ -129,49 +129,292 @@
       "updated_at_utc": "2026-11-23T23:30:08.433Z"
     },
     "PLTR": {
-      "latest_hash": "a2a3b3eb81af9e639160e6d4a39e56703ba80d49de83308966b66320b85674c0",
+      "latest_hash": "2821622503fc3f107c7d82a9e4bb8bd4f463a8ce684c4380a59b6f29e6d22ec1",
       "latest_period": "2026-09-30",
       "filing_date": "2026-11-03",
-      "path": "fundamentals/versions/PLTR/a2a3b3eb81af9e639160e6d4a39e56703ba80d49de83308966b66320b85674c0.json",
+      "path": "fundamentals/versions/PLTR/2821622503fc3f107c7d82a9e4bb8bd4f463a8ce684c4380a59b6f29e6d22ec1.json",
       "canonical_path": "fundamentals/PLTR.json",
       "quarters_count": 8,
-      "updated_at_utc": "2026-11-23T14:35:33.830Z"
+      "updated_at_utc": "2026-11-27T04:58:36.936Z"
     },
     "AEHR": {
-      "latest_hash": "6a27442c6977cce943bc173360cbfd5679f5e15fdcf889720431d45c305837c5",
+      "latest_hash": "e7dcd406ef3f442c5ad67e17f796cb8da399b1c7bff849958955b68f6b62582d",
       "latest_period": "2026-09-25",
       "filing_date": "2026-11-06",
-      "path": "fundamentals/versions/AEHR/6a27442c6977cce943bc173360cbfd5679f5e15fdcf889720431d45c305837c5.json",
+      "path": "fundamentals/versions/AEHR/e7dcd406ef3f442c5ad67e17f796cb8da399b1c7bff849958955b68f6b62582d.json",
       "canonical_path": "fundamentals/AEHR.json",
       "quarters_count": 8,
-      "updated_at_utc": "2026-11-23T14:35:35.111Z"
+      "updated_at_utc": "2026-11-27T04:58:14.236Z"
     },
     "SHOP": {
-      "latest_hash": "437067b242abedf6fac0cbbe0beb4368f22bcdaf9d4d0cc0a7cae2cd5e19199c",
+      "latest_hash": "f6cdd725f5e952ad0fb5a2dbc1437c50cd7bcb1690b0f2d66a7602f5cd44bbab",
       "latest_period": "2026-09-30",
       "filing_date": "2026-11-03",
-      "path": "fundamentals/versions/SHOP/437067b242abedf6fac0cbbe0beb4368f22bcdaf9d4d0cc0a7cae2cd5e19199c.json",
+      "path": "fundamentals/versions/SHOP/f6cdd725f5e952ad0fb5a2dbc1437c50cd7bcb1690b0f2d66a7602f5cd44bbab.json",
       "canonical_path": "fundamentals/SHOP.json",
       "quarters_count": 8,
-      "updated_at_utc": "2026-11-23T14:35:35.570Z"
+      "updated_at_utc": "2026-11-27T04:58:40.842Z"
     },
     "PI": {
-      "latest_hash": "21e90757f13e727d8c432af2614fb41817b8ff0fd6d11885211075ca10a7f9d3",
+      "latest_hash": "0a4b2c117389e4c8d1bbf957996d94a5307cd9051b43a341f9f95e71eb01d405",
       "latest_period": "2026-09-30",
       "filing_date": "2026-10-28",
-      "path": "fundamentals/versions/PI/21e90757f13e727d8c432af2614fb41817b8ff0fd6d11885211075ca10a7f9d3.json",
+      "path": "fundamentals/versions/PI/0a4b2c117389e4c8d1bbf957996d94a5307cd9051b43a341f9f95e71eb01d405.json",
       "canonical_path": "fundamentals/PI.json",
       "quarters_count": 8,
-      "updated_at_utc": "2026-11-23T14:36:41.776Z"
+      "updated_at_utc": "2026-11-27T04:58:34.681Z"
     },
     "SMTC": {
-      "latest_hash": "868444964c7b5bb9da239388e69d043ec2d33ced5cf6ae72b5930157a889a7dc",
-      "latest_period": "2026-04-26",
-      "filing_date": "2026-05-27",
-      "path": "fundamentals/versions/SMTC/868444964c7b5bb9da239388e69d043ec2d33ced5cf6ae72b5930157a889a7dc.json",
+      "latest_hash": "811504fbfdd970c2b215aded331a1779eeecdef6bff9521a58de24c5280654e0",
+      "latest_period": "2026-10-25",
+      "filing_date": "2026-11-24",
+      "path": "fundamentals/versions/SMTC/811504fbfdd970c2b215aded331a1779eeecdef6bff9521a58de24c5280654e0.json",
       "canonical_path": "fundamentals/SMTC.json",
       "quarters_count": 8,
-      "updated_at_utc": "2026-11-23T14:36:42.542Z"
+      "updated_at_utc": "2026-11-27T04:58:41.832Z"
+    },
+    "ANET": {
+      "latest_hash": "5c8f0f78a71efbd7f5650fa37ab0e147f02eb6b4637d942995cbb620282ec13d",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-04",
+      "path": "fundamentals/versions/ANET/5c8f0f78a71efbd7f5650fa37ab0e147f02eb6b4637d942995cbb620282ec13d.json",
+      "canonical_path": "fundamentals/ANET.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:57:55.534Z"
+    },
+    "AXTI": {
+      "latest_hash": "e80fd828ea720320ea38caef079a3012614c585e42acd86810fe699ad1a50daf",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-12",
+      "path": "fundamentals/versions/AXTI/e80fd828ea720320ea38caef079a3012614c585e42acd86810fe699ad1a50daf.json",
+      "canonical_path": "fundamentals/AXTI.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:57:56.961Z"
+    },
+    "CRDO": {
+      "latest_hash": "094a21dc21531dae71d00349aa12b047f21eda5b8d2a80ed6d683019078febb2",
+      "latest_period": "2026-08-01",
+      "filing_date": "2026-09-02",
+      "path": "fundamentals/versions/CRDO/094a21dc21531dae71d00349aa12b047f21eda5b8d2a80ed6d683019078febb2.json",
+      "canonical_path": "fundamentals/CRDO.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:57:59.912Z"
+    },
+    "HURN": {
+      "latest_hash": "8f60e83aaf40d427f8bfe21bbc3d78658004169db62bb11414d4f9c6600853be",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-03",
+      "path": "fundamentals/versions/HURN/8f60e83aaf40d427f8bfe21bbc3d78658004169db62bb11414d4f9c6600853be.json",
+      "canonical_path": "fundamentals/HURN.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:01.422Z"
+    },
+    "ISRG": {
+      "latest_hash": "dc5b53ceaabcebaebf9e196e8d91e012712a00dd0734bcbc0cdeb615152f1222",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-10-21",
+      "path": "fundamentals/versions/ISRG/dc5b53ceaabcebaebf9e196e8d91e012712a00dd0734bcbc0cdeb615152f1222.json",
+      "canonical_path": "fundamentals/ISRG.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:02.878Z"
+    },
+    "JOBY": {
+      "latest_hash": "bc0c653e08c95f3827a06a058eb837d54654ccf29c3ff415db713b08d1b35735",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-05",
+      "path": "fundamentals/versions/JOBY/bc0c653e08c95f3827a06a058eb837d54654ccf29c3ff415db713b08d1b35735.json",
+      "canonical_path": "fundamentals/JOBY.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:04.217Z"
+    },
+    "MU": {
+      "latest_hash": "1a45036f400cce5e5dfa99a4f3be1ed74203fbc6a22ded5a4c096d0b2767c8a3",
+      "latest_period": "2026-09-03",
+      "filing_date": "2026-10-09",
+      "path": "fundamentals/versions/MU/1a45036f400cce5e5dfa99a4f3be1ed74203fbc6a22ded5a4c096d0b2767c8a3.json",
+      "canonical_path": "fundamentals/MU.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:08.099Z"
+    },
+    "SNDK": {
+      "latest_hash": "d45678e1a7b9c4834b8e692948dde5b5cfc0bb0f1d9889d19ac965a19b80410e",
+      "latest_period": "2026-10-02",
+      "filing_date": "2026-10-30",
+      "path": "fundamentals/versions/SNDK/d45678e1a7b9c4834b8e692948dde5b5cfc0bb0f1d9889d19ac965a19b80410e.json",
+      "canonical_path": "fundamentals/SNDK.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:11.501Z"
+    },
+    "TEM": {
+      "latest_hash": "2c3271748a118e5032f7aef3e48fab01feeead31520ef0f5a8694d02669e363d",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-02",
+      "path": "fundamentals/versions/TEM/2c3271748a118e5032f7aef3e48fab01feeead31520ef0f5a8694d02669e363d.json",
+      "canonical_path": "fundamentals/TEM.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:12.595Z"
+    },
+    "AMPL": {
+      "latest_hash": "7472975d81c4b68f4dd4981bf7318e892f197388d5427533e35271e5b9a66f97",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-05",
+      "path": "fundamentals/versions/AMPL/7472975d81c4b68f4dd4981bf7318e892f197388d5427533e35271e5b9a66f97.json",
+      "canonical_path": "fundamentals/AMPL.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:15.705Z"
+    },
+    "APPN": {
+      "latest_hash": "cbcc9c1aa22efacd260ff1a1f4db7a071ecee42cb60087b1007056571d45a400",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-05",
+      "path": "fundamentals/versions/APPN/cbcc9c1aa22efacd260ff1a1f4db7a071ecee42cb60087b1007056571d45a400.json",
+      "canonical_path": "fundamentals/APPN.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:17.015Z"
+    },
+    "CVI": {
+      "latest_hash": "5ca4f06805404cec1b145be7f6ec71a6448b31c62f31db8926c50c9731f2e321",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-03",
+      "path": "fundamentals/versions/CVI/5ca4f06805404cec1b145be7f6ec71a6448b31c62f31db8926c50c9731f2e321.json",
+      "canonical_path": "fundamentals/CVI.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:18.487Z"
+    },
+    "DINO": {
+      "latest_hash": "864619e5c741b1cefed00c693118e1cf1971a2d19de5927f002a9e99571443b4",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-10-28",
+      "path": "fundamentals/versions/DINO/864619e5c741b1cefed00c693118e1cf1971a2d19de5927f002a9e99571443b4.json",
+      "canonical_path": "fundamentals/DINO.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:19.969Z"
+    },
+    "DIOD": {
+      "latest_hash": "8436fda5c204379c64b6df1e12455e1e57494799063fb0eedd794996e669c773",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-05",
+      "path": "fundamentals/versions/DIOD/8436fda5c204379c64b6df1e12455e1e57494799063fb0eedd794996e669c773.json",
+      "canonical_path": "fundamentals/DIOD.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:21.713Z"
+    },
+    "DT": {
+      "latest_hash": "b22b5b740bdb94c62b29ffdb521f96e24460736f77bbab182b0af4b8cf97b30b",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-03",
+      "path": "fundamentals/versions/DT/b22b5b740bdb94c62b29ffdb521f96e24460736f77bbab182b0af4b8cf97b30b.json",
+      "canonical_path": "fundamentals/DT.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:23.168Z"
+    },
+    "DXPE": {
+      "latest_hash": "fdb43ef96828fade6f2f70913b056c2793f1b6bab7847f64a380be5d00c2200a",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-05",
+      "path": "fundamentals/versions/DXPE/fdb43ef96828fade6f2f70913b056c2793f1b6bab7847f64a380be5d00c2200a.json",
+      "canonical_path": "fundamentals/DXPE.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:24.970Z"
+    },
+    "ELF": {
+      "latest_hash": "b58079e9f1701291373686c66f28aedb75f8fc60954bbde3c8cdd39920e4bc97",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-05",
+      "path": "fundamentals/versions/ELF/b58079e9f1701291373686c66f28aedb75f8fc60954bbde3c8cdd39920e4bc97.json",
+      "canonical_path": "fundamentals/ELF.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:26.265Z"
+    },
+    "HNGE": {
+      "latest_hash": "5b9813df29208d3ea13bdae6a6b00e43c3bc6b2b863dbcd0bd07d200b673fdfe",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-09",
+      "path": "fundamentals/versions/HNGE/5b9813df29208d3ea13bdae6a6b00e43c3bc6b2b863dbcd0bd07d200b673fdfe.json",
+      "canonical_path": "fundamentals/HNGE.json",
+      "quarters_count": 6,
+      "updated_at_utc": "2026-11-27T04:58:28.991Z"
+    },
+    "IT": {
+      "latest_hash": "9c237c768aaa08f71daef3f0031d4016adfe78a33eb78902c33d60a7d420d223",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-03",
+      "path": "fundamentals/versions/IT/9c237c768aaa08f71daef3f0031d4016adfe78a33eb78902c33d60a7d420d223.json",
+      "canonical_path": "fundamentals/IT.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:30.800Z"
+    },
+    "NTAP": {
+      "latest_hash": "907e3b1abe5fc89523d1ce7c69520ec2f8fabb18f42020c6be7467dfadc8876d",
+      "latest_period": "2026-07-31",
+      "filing_date": "2026-09-02",
+      "path": "fundamentals/versions/NTAP/907e3b1abe5fc89523d1ce7c69520ec2f8fabb18f42020c6be7467dfadc8876d.json",
+      "canonical_path": "fundamentals/NTAP.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:32.075Z"
+    },
+    "PAYC": {
+      "latest_hash": "1ebd8a509428a716b64a74e833cc5c56bddb60fc6221d86f756c69831a1bb184",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-05",
+      "path": "fundamentals/versions/PAYC/1ebd8a509428a716b64a74e833cc5c56bddb60fc6221d86f756c69831a1bb184.json",
+      "canonical_path": "fundamentals/PAYC.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:33.243Z"
+    },
+    "PKOH": {
+      "latest_hash": "f1975f3ffcbfc9a7eeb7cf8eee4d80b1b80cf6be5d1b8067881ec2f742cc6aaa",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-05",
+      "path": "fundamentals/versions/PKOH/f1975f3ffcbfc9a7eeb7cf8eee4d80b1b80cf6be5d1b8067881ec2f742cc6aaa.json",
+      "canonical_path": "fundamentals/PKOH.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:35.987Z"
+    },
+    "QLYS": {
+      "latest_hash": "e3db7b18e974c7a5763ba6b11f5927923160fd02b01d5c68401d3e37ad0b5b35",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-09",
+      "path": "fundamentals/versions/QLYS/e3db7b18e974c7a5763ba6b11f5927923160fd02b01d5c68401d3e37ad0b5b35.json",
+      "canonical_path": "fundamentals/QLYS.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:37.855Z"
+    },
+    "ROG": {
+      "latest_hash": "0f318243696d3be30da0408f65864bcef183a2aae6e39832d3db1eab80af4d53",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-10-28",
+      "path": "fundamentals/versions/ROG/0f318243696d3be30da0408f65864bcef183a2aae6e39832d3db1eab80af4d53.json",
+      "canonical_path": "fundamentals/ROG.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:38.899Z"
+    },
+    "SDGR": {
+      "latest_hash": "afd7b6c71f888808f2a0735089116ecee1dbee4fc46e4aebcd03147eab9ba0db",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-04",
+      "path": "fundamentals/versions/SDGR/afd7b6c71f888808f2a0735089116ecee1dbee4fc46e4aebcd03147eab9ba0db.json",
+      "canonical_path": "fundamentals/SDGR.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:39.840Z"
+    },
+    "XMTR": {
+      "latest_hash": "612212205b834ae07c6137b90f54988c81072b29765da82ada244bccabdcf4e7",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-03",
+      "path": "fundamentals/versions/XMTR/612212205b834ae07c6137b90f54988c81072b29765da82ada244bccabdcf4e7.json",
+      "canonical_path": "fundamentals/XMTR.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:42.930Z"
+    },
+    "ZETA": {
+      "latest_hash": "f6c5a59dd13e740825e3379fe424c896e2fe00c76ac36d86fcf5a4e116109db9",
+      "latest_period": "2026-09-30",
+      "filing_date": "2026-11-09",
+      "path": "fundamentals/versions/ZETA/f6c5a59dd13e740825e3379fe424c896e2fe00c76ac36d86fcf5a4e116109db9.json",
+      "canonical_path": "fundamentals/ZETA.json",
+      "quarters_count": 8,
+      "updated_at_utc": "2026-11-27T04:58:44.313Z"
     }
   }
 }

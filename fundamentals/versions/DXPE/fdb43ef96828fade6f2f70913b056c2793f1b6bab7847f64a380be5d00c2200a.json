@@ -1,0 +1,527 @@
+{
+  "schema_version": "fundamental-v1",
+  "ticker": "DXPE",
+  "cik": "1020710",
+  "company_name": "DXP Enterprises, Inc.",
+  "currency": "USD",
+  "accounting_standard": "US-GAAP",
+  "updated_at_utc": "2026-11-27T04:58:24.464Z",
+  "latest_period": "2026-09-30",
+  "quarters": [
+    {
+      "period_end": "2026-09-30",
+      "period_start": "2026-07-01",
+      "ytd_period_start": "2026-01-01",
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
+      "fiscal_year": 2026,
+      "fiscal_period": "Q3",
+      "form": "10-Q",
+      "filed_date": "2026-11-05",
+      "accession": "0001628280-26-071141",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1020710/000162828026071141/0001628280-26-071141-index.htm",
+      "is_amendment": false,
+      "income_statement": {
+        "revenue": 587180000,
+        "gross_profit": 180508000,
+        "operating_income": 52462000,
+        "net_income": 26870000,
+        "gaap_basic_eps": 1.73,
+        "gaap_diluted_eps": 1.64,
+        "diluted_shares": 16353000
+      },
+      "balance_sheet": {
+        "cash_and_equivalents": 218834000,
+        "short_term_investments": null,
+        "total_cash_and_st_investments": 218834000,
+        "current_debt": 8480000,
+        "long_term_debt": 814736000,
+        "total_debt": 823216000,
+        "total_assets": 1817729000,
+        "total_liabilities": 1247315000,
+        "stockholders_equity": 570414000,
+        "minority_interest": null,
+        "temporary_equity": null,
+        "liabilities_and_equity": 1817729000,
+        "shares_outstanding": 15516986
+      },
+      "cash_flow": {
+        "operating_cash_flow": 18686000,
+        "capex": 4238000,
+        "free_cash_flow": 14448000
+      },
+      "derived": {
+        "revenue_yoy_pct": 14.3,
+        "revenue_qoq_pct": 1.86,
+        "eps_yoy_pct": 25.19,
+        "gross_margin_pct": 30.74,
+        "operating_margin_pct": 8.93,
+        "net_margin_pct": 4.58,
+        "fcf_margin_pct": 2.46,
+        "debt_to_equity": 1.443,
+        "debt_to_cash": 3.762
+      }
+    },
+    {
+      "period_end": "2026-06-30",
+      "period_start": "2026-04-01",
+      "ytd_period_start": "2026-01-01",
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
+      "fiscal_year": 2026,
+      "fiscal_period": "Q2",
+      "form": "10-Q",
+      "filed_date": "2026-08-06",
+      "accession": "0001628280-26-054179",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1020710/000162828026054179/0001628280-26-054179-index.htm",
+      "is_amendment": false,
+      "income_statement": {
+        "revenue": 576461000,
+        "gross_profit": 183067000,
+        "operating_income": 55493000,
+        "net_income": 28708000,
+        "gaap_basic_eps": 1.85,
+        "gaap_diluted_eps": 1.76,
+        "diluted_shares": 16345000
+      },
+      "balance_sheet": {
+        "cash_and_equivalents": 226618000,
+        "short_term_investments": null,
+        "total_cash_and_st_investments": 226618000,
+        "current_debt": 8580000,
+        "long_term_debt": 816365000,
+        "total_debt": 824945000,
+        "total_assets": 1769510000,
+        "total_liabilities": 1228769000,
+        "stockholders_equity": 540741000,
+        "minority_interest": null,
+        "temporary_equity": null,
+        "liabilities_and_equity": 1769510000,
+        "shares_outstanding": 15505100
+      },
+      "cash_flow": {
+        "operating_cash_flow": 32386000,
+        "capex": 2621000,
+        "free_cash_flow": 29765000
+      },
+      "derived": {
+        "revenue_yoy_pct": 15.6,
+        "revenue_qoq_pct": 10.51,
+        "eps_yoy_pct": 23.08,
+        "gross_margin_pct": 31.76,
+        "operating_margin_pct": 9.63,
+        "net_margin_pct": 4.98,
+        "fcf_margin_pct": 5.16,
+        "debt_to_equity": 1.526,
+        "debt_to_cash": 3.64
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "period_start": "2026-01-01",
+      "ytd_period_start": null,
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
+      "fiscal_year": 2026,
+      "fiscal_period": "Q1",
+      "form": "10-Q",
+      "filed_date": "2026-05-07",
+      "accession": "0001628280-26-032353",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1020710/000162828026032353/0001628280-26-032353-index.htm",
+      "is_amendment": false,
+      "income_statement": {
+        "revenue": 521658000,
+        "gross_profit": 168606000,
+        "operating_income": 42474000,
+        "net_income": 19978000,
+        "gaap_basic_eps": 1.28,
+        "gaap_diluted_eps": 1.22,
+        "diluted_shares": 16371000
+      },
+      "balance_sheet": {
+        "cash_and_equivalents": 213381000,
+        "short_term_investments": null,
+        "total_cash_and_st_investments": 213381000,
+        "current_debt": 8580000,
+        "long_term_debt": 817360000,
+        "total_debt": 825940000,
+        "total_assets": 1724782000,
+        "total_liabilities": 1212585000,
+        "stockholders_equity": 512197000,
+        "minority_interest": null,
+        "temporary_equity": null,
+        "liabilities_and_equity": 1724782000,
+        "shares_outstanding": 15505939
+      },
+      "cash_flow": {
+        "operating_cash_flow": 29569000,
+        "capex": 3294000,
+        "free_cash_flow": 26275000
+      },
+      "derived": {
+        "revenue_yoy_pct": 9.46,
+        "revenue_qoq_pct": -1.09,
+        "eps_yoy_pct": -2.4,
+        "gross_margin_pct": 32.32,
+        "operating_margin_pct": 8.14,
+        "net_margin_pct": 3.83,
+        "fcf_margin_pct": 5.04,
+        "debt_to_equity": 1.613,
+        "debt_to_cash": 3.871
+      }
+    },
+    {
+      "period_end": "2025-12-31",
+      "period_start": "2025-10-01",
+      "ytd_period_start": "2025-01-01",
+      "flow_basis": {
+        "revenue": "ANNUAL_MINUS_9M",
+        "net_income": "ANNUAL_MINUS_9M",
+        "eps": null
+      },
+      "fiscal_year": 2025,
+      "fiscal_period": "Q4",
+      "form": "10-K",
+      "filed_date": "2026-02-26",
+      "accession": "0001628280-26-012382",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1020710/000162828026012382/0001628280-26-012382-index.htm",
+      "is_amendment": false,
+      "income_statement": {
+        "revenue": 527390000,
+        "gross_profit": 166591000,
+        "operating_income": 46671000,
+        "net_income": 22845000,
+        "gaap_basic_eps": null,
+        "gaap_diluted_eps": null,
+        "diluted_shares": null
+      },
+      "balance_sheet": {
+        "cash_and_equivalents": 303783000,
+        "short_term_investments": null,
+        "total_cash_and_st_investments": 303783000,
+        "current_debt": 8580000,
+        "long_term_debt": 818476000,
+        "total_debt": 827056000,
+        "total_assets": 1685155000,
+        "total_liabilities": 1186716000,
+        "stockholders_equity": 498439000,
+        "minority_interest": null,
+        "temporary_equity": null,
+        "liabilities_and_equity": 1685155000,
+        "shares_outstanding": 15513590
+      },
+      "cash_flow": {
+        "operating_cash_flow": 37759000,
+        "capex": 3286000,
+        "free_cash_flow": 34473000
+      },
+      "derived": {
+        "revenue_yoy_pct": 11.99,
+        "revenue_qoq_pct": 2.66,
+        "eps_yoy_pct": null,
+        "gross_margin_pct": 31.59,
+        "operating_margin_pct": 8.85,
+        "net_margin_pct": 4.33,
+        "fcf_margin_pct": 6.54,
+        "debt_to_equity": 1.659,
+        "debt_to_cash": 2.723
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "period_start": "2025-07-01",
+      "ytd_period_start": "2025-01-01",
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
+      "fiscal_year": 2025,
+      "fiscal_period": "Q3",
+      "form": "10-Q",
+      "filed_date": "2025-11-06",
+      "accession": "0001628280-25-050322",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1020710/000162828025050322/0001628280-25-050322-index.htm",
+      "is_amendment": false,
+      "income_statement": {
+        "revenue": 513724000,
+        "gross_profit": 161259000,
+        "operating_income": 43698000,
+        "net_income": 21631000,
+        "gaap_basic_eps": 1.38,
+        "gaap_diluted_eps": 1.31,
+        "diluted_shares": 16526000
+      },
+      "balance_sheet": {
+        "cash_and_equivalents": 123829000,
+        "short_term_investments": null,
+        "total_cash_and_st_investments": 123829000,
+        "current_debt": 6595000,
+        "long_term_debt": 619396000,
+        "total_debt": 625991000,
+        "total_assets": 1444454000,
+        "total_liabilities": 956115000,
+        "stockholders_equity": 488339000,
+        "minority_interest": null,
+        "temporary_equity": null,
+        "liabilities_and_equity": 1444454000,
+        "shares_outstanding": 15677406
+      },
+      "cash_flow": {
+        "operating_cash_flow": 34886000,
+        "capex": 6740000,
+        "free_cash_flow": 28146000
+      },
+      "derived": {
+        "revenue_yoy_pct": null,
+        "revenue_qoq_pct": 3.02,
+        "eps_yoy_pct": null,
+        "gross_margin_pct": 31.39,
+        "operating_margin_pct": 8.51,
+        "net_margin_pct": 4.21,
+        "fcf_margin_pct": 5.48,
+        "debt_to_equity": 1.282,
+        "debt_to_cash": 5.055
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "period_start": "2025-04-01",
+      "ytd_period_start": "2025-01-01",
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
+      "fiscal_year": 2025,
+      "fiscal_period": "Q2",
+      "form": "10-Q",
+      "filed_date": "2025-08-07",
+      "accession": "0001020710-25-000137",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1020710/000102071025000137/0001020710-25-000137-index.htm",
+      "is_amendment": false,
+      "income_statement": {
+        "revenue": 498682000,
+        "gross_profit": 157813000,
+        "operating_income": 45986000,
+        "net_income": 23612000,
+        "gaap_basic_eps": 1.5,
+        "gaap_diluted_eps": 1.43,
+        "diluted_shares": 16534000
+      },
+      "balance_sheet": {
+        "cash_and_equivalents": 112930000,
+        "short_term_investments": null,
+        "total_cash_and_st_investments": 112930000,
+        "current_debt": 6595000,
+        "long_term_debt": 620239000,
+        "total_debt": 626834000,
+        "total_assets": 1412394000,
+        "total_liabilities": 944302000,
+        "stockholders_equity": 468092000,
+        "minority_interest": null,
+        "temporary_equity": null,
+        "liabilities_and_equity": 1412394000,
+        "shares_outstanding": 15694084
+      },
+      "cash_flow": {
+        "operating_cash_flow": 18646000,
+        "capex": 10346000,
+        "free_cash_flow": 8300000
+      },
+      "derived": {
+        "revenue_yoy_pct": null,
+        "revenue_qoq_pct": 4.64,
+        "eps_yoy_pct": null,
+        "gross_margin_pct": 31.65,
+        "operating_margin_pct": 9.22,
+        "net_margin_pct": 4.73,
+        "fcf_margin_pct": 1.66,
+        "debt_to_equity": 1.339,
+        "debt_to_cash": 5.551
+      }
+    },
+    {
+      "period_end": "2025-03-31",
+      "period_start": "2025-01-01",
+      "ytd_period_start": null,
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
+      "fiscal_year": 2025,
+      "fiscal_period": "Q1",
+      "form": "10-Q",
+      "filed_date": "2025-05-08",
+      "accession": "0001020710-25-000092",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1020710/000102071025000092/0001020710-25-000092-index.htm",
+      "is_amendment": false,
+      "income_statement": {
+        "revenue": 476569000,
+        "gross_profit": 150265000,
+        "operating_income": 40515000,
+        "net_income": 20589000,
+        "gaap_basic_eps": 1.31,
+        "gaap_diluted_eps": 1.25,
+        "diluted_shares": 16538000
+      },
+      "balance_sheet": {
+        "cash_and_equivalents": 114283000,
+        "short_term_investments": null,
+        "total_cash_and_st_investments": 114283000,
+        "current_debt": 6595000,
+        "long_term_debt": 620901000,
+        "total_debt": 627496000,
+        "total_assets": 1382512000,
+        "total_liabilities": 937853000,
+        "stockholders_equity": 444659000,
+        "minority_interest": null,
+        "temporary_equity": null,
+        "liabilities_and_equity": 1382512000,
+        "shares_outstanding": 15694290
+      },
+      "cash_flow": {
+        "operating_cash_flow": 2973000,
+        "capex": 19914000,
+        "free_cash_flow": -16941000
+      },
+      "derived": {
+        "revenue_yoy_pct": null,
+        "revenue_qoq_pct": 1.2,
+        "eps_yoy_pct": null,
+        "gross_margin_pct": 31.53,
+        "operating_margin_pct": 8.5,
+        "net_margin_pct": 4.32,
+        "fcf_margin_pct": -3.55,
+        "debt_to_equity": 1.411,
+        "debt_to_cash": 5.491
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "period_start": "2024-10-01",
+      "ytd_period_start": "2024-01-01",
+      "flow_basis": {
+        "revenue": "ANNUAL_MINUS_9M",
+        "net_income": "ANNUAL_MINUS_9M",
+        "eps": null
+      },
+      "fiscal_year": 2024,
+      "fiscal_period": "Q4",
+      "form": "10-K",
+      "filed_date": "2025-03-10",
+      "accession": "0001020710-25-000036",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1020710/000102071025000036/0001020710-25-000036-index.htm",
+      "is_amendment": false,
+      "income_statement": {
+        "revenue": 470914000,
+        "gross_profit": 148492000,
+        "operating_income": 39291000,
+        "net_income": 21363000,
+        "gaap_basic_eps": null,
+        "gaap_diluted_eps": null,
+        "diluted_shares": null
+      },
+      "balance_sheet": {
+        "cash_and_equivalents": 148320000,
+        "short_term_investments": null,
+        "total_cash_and_st_investments": 148320000,
+        "current_debt": 6595000,
+        "long_term_debt": 621684000,
+        "total_debt": 628279000,
+        "total_assets": 1349494000,
+        "total_liabilities": 926706000,
+        "stockholders_equity": 422788000,
+        "minority_interest": null,
+        "temporary_equity": null,
+        "liabilities_and_equity": 1349494000,
+        "shares_outstanding": 15695088
+      },
+      "cash_flow": {
+        "operating_cash_flow": 32143000,
+        "capex": 9395000,
+        "free_cash_flow": 22748000
+      },
+      "derived": {
+        "revenue_yoy_pct": null,
+        "revenue_qoq_pct": null,
+        "eps_yoy_pct": null,
+        "gross_margin_pct": 31.53,
+        "operating_margin_pct": 8.34,
+        "net_margin_pct": 4.54,
+        "fcf_margin_pct": 4.83,
+        "debt_to_equity": 1.486,
+        "debt_to_cash": 4.236
+      }
+    }
+  ],
+  "ttm": {
+    "as_of_period": "2026-09-30",
+    "revenue_ttm": 2212689000,
+    "net_income_ttm": 98401000,
+    "operating_cash_flow_ttm": 118400000,
+    "free_cash_flow_ttm": 104961000,
+    "diluted_eps_ttm": null,
+    "diluted_eps_ttm_status": "MISSING_DIRECT_QUARTER_EPS:2025-12-31"
+  },
+  "quality": {
+    "tier": "ACCOUNTING_VALIDATED",
+    "validation_checks": [
+      "SEC_EDGAR_FACTS_VERIFIED",
+      "QUARTER_YTD_DURATION_SEPARATED",
+      "BALANCE_SHEET_IDENTITY_VERIFIED",
+      "FCF_IDENTITY_VERIFIED",
+      "ACCOUNTING_IDENTITIES_VERIFIED",
+      "DATE_INTEGRITY_VERIFIED",
+      "NON_ETF_VERIFIED",
+      "SCHEMA_INTEGRITY_VERIFIED"
+    ],
+    "verified_at_utc": "2026-11-27T04:58:24.465Z",
+    "balance_sheet_levels": {
+      "2026-09-30": {
+        "direct_total": "VERIFIED",
+        "components": "COMPONENT_VERIFIED"
+      },
+      "2026-06-30": {
+        "direct_total": "VERIFIED",
+        "components": "COMPONENT_VERIFIED"
+      },
+      "2026-03-31": {
+        "direct_total": "VERIFIED",
+        "components": "COMPONENT_VERIFIED"
+      },
+      "2025-12-31": {
+        "direct_total": "VERIFIED",
+        "components": "COMPONENT_VERIFIED"
+      },
+      "2025-09-30": {
+        "direct_total": "VERIFIED",
+        "components": "COMPONENT_VERIFIED"
+      },
+      "2025-06-30": {
+        "direct_total": "VERIFIED",
+        "components": "COMPONENT_VERIFIED"
+      },
+      "2025-03-31": {
+        "direct_total": "VERIFIED",
+        "components": "COMPONENT_VERIFIED"
+      },
+      "2024-12-31": {
+        "direct_total": "VERIFIED",
+        "components": "COMPONENT_VERIFIED"
+      }
+    },
+    "warnings": []
+  },
+  "content_hash": "fdb43ef96828fade6f2f70913b056c2793f1b6bab7847f64a380be5d00c2200a"
+}

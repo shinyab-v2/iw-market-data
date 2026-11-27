@@ -5,12 +5,18 @@
   "company_name": "Netflix, Inc.",
   "currency": "USD",
   "accounting_standard": "US-GAAP",
-  "updated_at_utc": "2026-11-23T23:30:06.785Z",
+  "updated_at_utc": "2026-11-27T04:58:09.075Z",
   "latest_period": "2026-09-30",
   "quarters": [
     {
       "period_end": "2026-09-30",
-      "period_start": "2026-01-01",
+      "period_start": "2026-07-01",
+      "ytd_period_start": "2026-01-01",
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
       "fiscal_year": 2026,
       "fiscal_period": "Q3",
       "form": "10-Q",
@@ -38,6 +44,7 @@
         "total_liabilities": 29395701000,
         "stockholders_equity": 29286253000,
         "minority_interest": null,
+        "temporary_equity": null,
         "liabilities_and_equity": 58681954000,
         "shares_outstanding": 4106325903
       },
@@ -60,7 +67,13 @@
     },
     {
       "period_end": "2026-06-30",
-      "period_start": "2026-01-01",
+      "period_start": "2026-04-01",
+      "ytd_period_start": "2026-01-01",
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
       "fiscal_year": 2026,
       "fiscal_period": "Q2",
       "form": "10-Q",
@@ -78,9 +91,9 @@
         "diluted_shares": 4261300000
       },
       "balance_sheet": {
-        "cash_and_equivalents": 9102786000,
+        "cash_and_equivalents": 9099232000,
         "short_term_investments": 28678000,
-        "total_cash_and_st_investments": 9131464000,
+        "total_cash_and_st_investments": 9127910000,
         "current_debt": 2483758000,
         "long_term_debt": 11825548000,
         "total_debt": 14309306000,
@@ -88,6 +101,7 @@
         "total_liabilities": 28298389000,
         "stockholders_equity": 30152052000,
         "minority_interest": null,
+        "temporary_equity": null,
         "liabilities_and_equity": 58450441000,
         "shares_outstanding": 4163939676
       },
@@ -105,12 +119,18 @@
         "net_margin_pct": 27.08,
         "fcf_margin_pct": 12.14,
         "debt_to_equity": 0.475,
-        "debt_to_cash": 1.567
+        "debt_to_cash": 1.568
       }
     },
     {
       "period_end": "2026-03-31",
       "period_start": "2026-01-01",
+      "ytd_period_start": null,
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
       "fiscal_year": 2026,
       "fiscal_period": "Q1",
       "form": "10-Q",
@@ -128,9 +148,9 @@
         "diluted_shares": 4298437000
       },
       "balance_sheet": {
-        "cash_and_equivalents": 12266873000,
+        "cash_and_equivalents": 12259772000,
         "short_term_investments": 28678000,
-        "total_cash_and_st_investments": 12295551000,
+        "total_cash_and_st_investments": 12288450000,
         "current_debt": 999185000,
         "long_term_debt": 13361331000,
         "total_debt": 14360516000,
@@ -138,6 +158,7 @@
         "total_liabilities": 29889515000,
         "stockholders_equity": 31126399000,
         "minority_interest": null,
+        "temporary_equity": null,
         "liabilities_and_equity": 61015914000,
         "shares_outstanding": 4212794271
       },
@@ -155,12 +176,18 @@
         "net_margin_pct": 43.13,
         "fcf_margin_pct": 41.59,
         "debt_to_equity": 0.461,
-        "debt_to_cash": 1.168
+        "debt_to_cash": 1.169
       }
     },
     {
       "period_end": "2025-12-31",
-      "period_start": "2025-01-01",
+      "period_start": "2025-10-01",
+      "ytd_period_start": "2025-01-01",
+      "flow_basis": {
+        "revenue": "ANNUAL_MINUS_9M",
+        "net_income": "ANNUAL_MINUS_9M",
+        "eps": null
+      },
       "fiscal_year": 2025,
       "fiscal_period": "Q4",
       "form": "10-K",
@@ -188,6 +215,7 @@
         "total_liabilities": 28981505000,
         "stockholders_equity": 26615488000,
         "minority_interest": null,
+        "temporary_equity": null,
         "liabilities_and_equity": 55596993000,
         "shares_outstanding": 4222162150
       },
@@ -210,7 +238,13 @@
     },
     {
       "period_end": "2025-09-30",
-      "period_start": "2025-01-01",
+      "period_start": "2025-07-01",
+      "ytd_period_start": "2025-01-01",
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
       "fiscal_year": 2025,
       "fiscal_period": "Q3",
       "form": "10-Q",
@@ -228,9 +262,9 @@
         "diluted_shares": 4340392000
       },
       "balance_sheet": {
-        "cash_and_equivalents": 9290868000,
+        "cash_and_equivalents": 9287287000,
         "short_term_investments": 37105000,
-        "total_cash_and_st_investments": 9327973000,
+        "total_cash_and_st_investments": 9324392000,
         "current_debt": 0,
         "long_term_debt": 14463020000,
         "total_debt": 14463020000,
@@ -238,6 +272,7 @@
         "total_liabilities": 28980800000,
         "stockholders_equity": 25954035000,
         "minority_interest": null,
+        "temporary_equity": null,
         "liabilities_and_equity": 54934835000,
         "shares_outstanding": 423732334
       },
@@ -255,12 +290,18 @@
         "net_margin_pct": 22.13,
         "fcf_margin_pct": 23.11,
         "debt_to_equity": 0.557,
-        "debt_to_cash": 1.55
+        "debt_to_cash": 1.551
       }
     },
     {
       "period_end": "2025-06-30",
-      "period_start": "2025-01-01",
+      "period_start": "2025-04-01",
+      "ytd_period_start": "2025-01-01",
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
       "fiscal_year": 2025,
       "fiscal_period": "Q2",
       "form": "10-Q",
@@ -278,9 +319,9 @@
         "diluted_shares": 4348825000
       },
       "balance_sheet": {
-        "cash_and_equivalents": 8180573000,
+        "cash_and_equivalents": 8177405000,
         "short_term_investments": 213115000,
-        "total_cash_and_st_investments": 8393688000,
+        "total_cash_and_st_investments": 8390520000,
         "current_debt": 0,
         "long_term_debt": 14453206000,
         "total_debt": 14453206000,
@@ -288,6 +329,7 @@
         "total_liabilities": 28147765000,
         "stockholders_equity": 24951899000,
         "minority_interest": null,
+        "temporary_equity": null,
         "liabilities_and_equity": 53099664000,
         "shares_outstanding": 424926346
       },
@@ -305,12 +347,18 @@
         "net_margin_pct": 28.21,
         "fcf_margin_pct": 20.47,
         "debt_to_equity": 0.579,
-        "debt_to_cash": 1.722
+        "debt_to_cash": 1.723
       }
     },
     {
       "period_end": "2025-03-31",
       "period_start": "2025-01-01",
+      "ytd_period_start": null,
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
       "fiscal_year": 2025,
       "fiscal_period": "Q1",
       "form": "10-Q",
@@ -328,9 +376,9 @@
         "diluted_shares": 4369623000
       },
       "balance_sheet": {
-        "cash_and_equivalents": 7204028000,
+        "cash_and_equivalents": 7199848000,
         "short_term_investments": 1171142000,
-        "total_cash_and_st_investments": 8375170000,
+        "total_cash_and_st_investments": 8370990000,
         "current_debt": 1005881000,
         "long_term_debt": 14011037000,
         "total_debt": 15016918000,
@@ -338,6 +386,7 @@
         "total_liabilities": 28059571000,
         "stockholders_equity": 24028073000,
         "minority_interest": null,
+        "temporary_equity": null,
         "liabilities_and_equity": 52087644000,
         "shares_outstanding": 425683210
       },
@@ -355,12 +404,18 @@
         "net_margin_pct": 27.42,
         "fcf_margin_pct": 25.24,
         "debt_to_equity": 0.625,
-        "debt_to_cash": 1.793
+        "debt_to_cash": 1.794
       }
     },
     {
       "period_end": "2024-12-31",
-      "period_start": "2024-01-01",
+      "period_start": "2024-10-01",
+      "ytd_period_start": "2024-01-01",
+      "flow_basis": {
+        "revenue": "ANNUAL_MINUS_9M",
+        "net_income": "ANNUAL_MINUS_9M",
+        "eps": null
+      },
       "fiscal_year": 2024,
       "fiscal_period": "Q4",
       "form": "10-K",
@@ -378,9 +433,9 @@
         "diluted_shares": null
       },
       "balance_sheet": {
-        "cash_and_equivalents": 7807337000,
+        "cash_and_equivalents": 7804733000,
         "short_term_investments": 1779006000,
-        "total_cash_and_st_investments": 9586343000,
+        "total_cash_and_st_investments": 9583739000,
         "current_debt": 1784453000,
         "long_term_debt": 13798351000,
         "total_debt": 15582804000,
@@ -388,8 +443,9 @@
         "total_liabilities": 28886807000,
         "stockholders_equity": 24743567000,
         "minority_interest": null,
+        "temporary_equity": null,
         "liabilities_and_equity": 53630374000,
-        "shares_outstanding": 4277571000
+        "shares_outstanding": 427757100
       },
       "cash_flow": {
         "operating_cash_flow": 1536894000,
@@ -415,7 +471,8 @@
     "net_income_ttm": 14766653000,
     "operating_cash_flow_ttm": 12307938000,
     "free_cash_flow_ttm": 11375063000,
-    "diluted_eps_ttm": null
+    "diluted_eps_ttm": null,
+    "diluted_eps_ttm_status": "MISSING_DIRECT_QUARTER_EPS:2025-12-31"
   },
   "quality": {
     "tier": "ACCOUNTING_VALIDATED",
@@ -429,7 +486,42 @@
       "NON_ETF_VERIFIED",
       "SCHEMA_INTEGRITY_VERIFIED"
     ],
-    "verified_at_utc": "2026-11-23T23:30:06.785Z"
+    "verified_at_utc": "2026-11-27T04:58:09.075Z",
+    "balance_sheet_levels": {
+      "2026-09-30": {
+        "direct_total": "VERIFIED",
+        "components": "COMPONENT_VERIFIED"
+      },
+      "2026-06-30": {
+        "direct_total": "VERIFIED",
+        "components": "COMPONENT_VERIFIED"
+      },
+      "2026-03-31": {
+        "direct_total": "VERIFIED",
+        "components": "COMPONENT_VERIFIED"
+      },
+      "2025-12-31": {
+        "direct_total": "VERIFIED",
+        "components": "COMPONENT_VERIFIED"
+      },
+      "2025-09-30": {
+        "direct_total": "VERIFIED",
+        "components": "COMPONENT_VERIFIED"
+      },
+      "2025-06-30": {
+        "direct_total": "VERIFIED",
+        "components": "COMPONENT_VERIFIED"
+      },
+      "2025-03-31": {
+        "direct_total": "VERIFIED",
+        "components": "COMPONENT_VERIFIED"
+      },
+      "2024-12-31": {
+        "direct_total": "VERIFIED",
+        "components": "COMPONENT_VERIFIED"
+      }
+    },
+    "warnings": []
   },
-  "content_hash": "9581382913545b152e8e640782cc5a2a12bbb9c219317c956fbb1da150372273"
+  "content_hash": "7ac3738ce2f42b4aa219d40e547ac338e905a3eb46ae0603badeb9f02d825f90"
 }

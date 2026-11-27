@@ -5,12 +5,18 @@
   "company_name": "ADVANCED MICRO DEVICES INC",
   "currency": "USD",
   "accounting_standard": "US-GAAP",
-  "updated_at_utc": "2026-11-24T23:30:11.171Z",
+  "updated_at_utc": "2026-11-27T04:57:53.501Z",
   "latest_period": "2026-09-26",
   "quarters": [
     {
       "period_end": "2026-09-26",
-      "period_start": "2025-12-28",
+      "period_start": "2026-06-28",
+      "ytd_period_start": "2025-12-28",
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
       "fiscal_year": 2026,
       "fiscal_period": "Q3",
       "form": "10-Q",
@@ -38,6 +44,7 @@
         "total_liabilities": null,
         "stockholders_equity": 68389000000,
         "minority_interest": null,
+        "temporary_equity": null,
         "liabilities_and_equity": 94812000000,
         "shares_outstanding": 1640000000
       },
@@ -60,7 +67,13 @@
     },
     {
       "period_end": "2026-06-27",
-      "period_start": "2025-12-28",
+      "period_start": "2026-03-29",
+      "ytd_period_start": "2025-12-28",
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
       "fiscal_year": 2026,
       "fiscal_period": "Q2",
       "form": "10-Q",
@@ -88,6 +101,7 @@
         "total_liabilities": null,
         "stockholders_equity": 67224000000,
         "minority_interest": null,
+        "temporary_equity": null,
         "liabilities_and_equity": 84464000000,
         "shares_outstanding": 1632000000
       },
@@ -111,6 +125,12 @@
     {
       "period_end": "2026-03-28",
       "period_start": "2025-12-28",
+      "ytd_period_start": null,
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
       "fiscal_year": 2026,
       "fiscal_period": "Q1",
       "form": "10-Q",
@@ -138,6 +158,7 @@
         "total_liabilities": null,
         "stockholders_equity": 64462000000,
         "minority_interest": null,
+        "temporary_equity": null,
         "liabilities_and_equity": 79642000000,
         "shares_outstanding": 1630000000
       },
@@ -160,7 +181,13 @@
     },
     {
       "period_end": "2025-12-27",
-      "period_start": "2024-12-29",
+      "period_start": "2025-09-28",
+      "ytd_period_start": "2024-12-29",
+      "flow_basis": {
+        "revenue": "ANNUAL_MINUS_9M",
+        "net_income": "ANNUAL_MINUS_9M",
+        "eps": null
+      },
       "fiscal_year": 2025,
       "fiscal_period": "Q4",
       "form": "10-K",
@@ -188,6 +215,7 @@
         "total_liabilities": null,
         "stockholders_equity": 62999000000,
         "minority_interest": null,
+        "temporary_equity": null,
         "liabilities_and_equity": 76926000000,
         "shares_outstanding": 1630000000
       },
@@ -210,7 +238,13 @@
     },
     {
       "period_end": "2025-09-27",
-      "period_start": "2024-12-29",
+      "period_start": "2025-06-29",
+      "ytd_period_start": "2024-12-29",
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
       "fiscal_year": 2025,
       "fiscal_period": "Q3",
       "form": "10-Q",
@@ -238,6 +272,7 @@
         "total_liabilities": null,
         "stockholders_equity": 60790000000,
         "minority_interest": null,
+        "temporary_equity": null,
         "liabilities_and_equity": 76891000000,
         "shares_outstanding": 1628000000
       },
@@ -260,7 +295,13 @@
     },
     {
       "period_end": "2025-06-28",
-      "period_start": "2024-12-29",
+      "period_start": "2025-03-30",
+      "ytd_period_start": "2024-12-29",
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
       "fiscal_year": 2025,
       "fiscal_period": "Q2",
       "form": "10-Q",
@@ -288,6 +329,7 @@
         "total_liabilities": null,
         "stockholders_equity": 59665000000,
         "minority_interest": null,
+        "temporary_equity": null,
         "liabilities_and_equity": 74820000000,
         "shares_outstanding": 1622000000
       },
@@ -311,6 +353,12 @@
     {
       "period_end": "2025-03-29",
       "period_start": "2024-12-29",
+      "ytd_period_start": null,
+      "flow_basis": {
+        "revenue": "DIRECT_QUARTER",
+        "net_income": "DIRECT_QUARTER",
+        "eps": "DIRECT_QUARTER"
+      },
       "fiscal_year": 2025,
       "fiscal_period": "Q1",
       "form": "10-Q",
@@ -338,6 +386,7 @@
         "total_liabilities": null,
         "stockholders_equity": 57881000000,
         "minority_interest": null,
+        "temporary_equity": null,
         "liabilities_and_equity": 71550000000,
         "shares_outstanding": 1616000000
       },
@@ -360,7 +409,13 @@
     },
     {
       "period_end": "2024-12-28",
-      "period_start": "2023-12-31",
+      "period_start": "2024-09-29",
+      "ytd_period_start": "2023-12-31",
+      "flow_basis": {
+        "revenue": "ANNUAL_MINUS_9M",
+        "net_income": "ANNUAL_MINUS_9M",
+        "eps": null
+      },
       "fiscal_year": 2024,
       "fiscal_period": "Q4",
       "form": "10-K",
@@ -388,6 +443,7 @@
         "total_liabilities": null,
         "stockholders_equity": 57568000000,
         "minority_interest": null,
+        "temporary_equity": null,
         "liabilities_and_equity": 69226000000,
         "shares_outstanding": 1622000000
       },
@@ -415,7 +471,8 @@
     "net_income_ttm": 7619000000,
     "operating_cash_flow_ttm": 9123000000,
     "free_cash_flow_ttm": 7056000000,
-    "diluted_eps_ttm": null
+    "diluted_eps_ttm": null,
+    "diluted_eps_ttm_status": "MISSING_DIRECT_QUARTER_EPS:2025-12-27"
   },
   "quality": {
     "tier": "ACCOUNTING_VALIDATED",
@@ -429,7 +486,42 @@
       "NON_ETF_VERIFIED",
       "SCHEMA_INTEGRITY_VERIFIED"
     ],
-    "verified_at_utc": "2026-11-24T23:30:11.171Z"
+    "verified_at_utc": "2026-11-27T04:57:53.503Z",
+    "balance_sheet_levels": {
+      "2026-09-26": {
+        "direct_total": "VERIFIED",
+        "components": "INSUFFICIENT_ITEMS"
+      },
+      "2026-06-27": {
+        "direct_total": "VERIFIED",
+        "components": "INSUFFICIENT_ITEMS"
+      },
+      "2026-03-28": {
+        "direct_total": "VERIFIED",
+        "components": "INSUFFICIENT_ITEMS"
+      },
+      "2025-12-27": {
+        "direct_total": "VERIFIED",
+        "components": "INSUFFICIENT_ITEMS"
+      },
+      "2025-09-27": {
+        "direct_total": "VERIFIED",
+        "components": "INSUFFICIENT_ITEMS"
+      },
+      "2025-06-28": {
+        "direct_total": "VERIFIED",
+        "components": "INSUFFICIENT_ITEMS"
+      },
+      "2025-03-29": {
+        "direct_total": "VERIFIED",
+        "components": "INSUFFICIENT_ITEMS"
+      },
+      "2024-12-28": {
+        "direct_total": "VERIFIED",
+        "components": "INSUFFICIENT_ITEMS"
+      }
+    },
+    "warnings": []
   },
-  "content_hash": "0d1eeb6fdcf8f2c4ac5c45a5a91667dbe52e853e827d574829f2ab984aa528f8"
+  "content_hash": "93feb0bc5141be018702f8c9b1f353b1d92786c55ae28671f951af901770976d"
 }
