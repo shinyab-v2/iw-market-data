@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "AMAT",
-  "updated_at_utc": "2026-11-26T03:58:03.815Z",
+  "updated_at_utc": "2026-11-27T03:57:03.993Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-25",
@@ -25,9 +25,9 @@
   "bb_lower": 296.65,
   "bb_percent_b": 0.1189,
   "bb_width_pct": 34.14,
-  "volume": 11700800,
-  "volume_ma20": 9173405,
-  "volume_ratio": 1.276,
+  "volume": 11719400,
+  "volume_ma20": 9174335,
+  "volume_ratio": 1.277,
   "volume_signal": "NORMAL",
   "atr14": 27.85,
   "adx14": 26.04,
@@ -55,8 +55,8 @@
   "bbLower": 296.65,
   "bbPercentB": 0.1189,
   "bbWidthPct": 34.14,
-  "volumeMA20": 9173405,
-  "volumeRatio": 1.276,
+  "volumeMA20": 9174335,
+  "volumeRatio": 1.277,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -57.93,
   "fromLow52Pct": 33.47,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "1545e98610f7989fcab965dde1957b13422128ad28fde0266e2e0f18c9abddaa"
+  "rows_hash": "d79a6087b4c9dc8ab6833864a4a01fea5865b1354568f420ee770156bc39622c"
 }

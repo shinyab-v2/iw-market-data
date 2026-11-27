@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "MRVL",
-  "updated_at_utc": "2026-11-26T03:58:04.448Z",
+  "updated_at_utc": "2026-11-27T03:57:04.655Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-25",
@@ -25,9 +25,9 @@
   "bb_lower": 108.99,
   "bb_percent_b": 0.2386,
   "bb_width_pct": 59.33,
-  "volume": 28539800,
-  "volume_ma20": 35240820,
-  "volume_ratio": 0.81,
+  "volume": 28713100,
+  "volume_ma20": 35249485,
+  "volume_ratio": 0.815,
   "volume_signal": "NORMAL",
   "atr14": 16.65,
   "adx14": 46.38,
@@ -55,8 +55,8 @@
   "bbLower": 108.99,
   "bbPercentB": 0.2386,
   "bbWidthPct": 59.33,
-  "volumeMA20": 35240820,
-  "volumeRatio": 0.81,
+  "volumeMA20": 35249485,
+  "volumeRatio": 0.815,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -60.31,
   "fromLow52Pct": 85.22,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "11ffa5d97d8d5dc68a731d2cdafa9882ec515a9daeba29fcd5e17b361c5735c6"
+  "rows_hash": "d84e561936e17cbc61eabaad2c5d21ecf04c63b93a6adf2f987633e119c56fa3"
 }

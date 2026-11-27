@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "TSM",
-  "updated_at_utc": "2026-11-26T03:58:04.683Z",
+  "updated_at_utc": "2026-11-27T03:57:04.895Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-25",
@@ -25,9 +25,9 @@
   "bb_lower": 322,
   "bb_percent_b": 0.1769,
   "bb_width_pct": 30.3,
-  "volume": 22717200,
-  "volume_ma20": 19255685,
-  "volume_ratio": 1.18,
+  "volume": 22861100,
+  "volume_ma20": 19262880,
+  "volume_ratio": 1.187,
   "volume_signal": "NORMAL",
   "atr14": 23.05,
   "adx14": 41.24,
@@ -55,8 +55,8 @@
   "bbLower": 322,
   "bbPercentB": 0.1769,
   "bbWidthPct": 30.3,
-  "volumeMA20": 19255685,
-  "volumeRatio": 1.18,
+  "volumeMA20": 19262880,
+  "volumeRatio": 1.187,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -29.77,
   "fromLow52Pct": 25.36,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "5336635b22eaa4b7299c5c2f94e1e2078cd4ba35cb478eb7096d8c5d26c028cc"
+  "rows_hash": "f87f0f0932a4e328f739cdefae2deac98aefb73eaaff2050bf3be1171e9722c4"
 }

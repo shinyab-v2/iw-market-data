@@ -1,9 +1,9 @@
 {
   "ticker": "AEHR",
-  "updatedAt": "2026-11-26T03:58:05.268Z",
+  "updatedAt": "2026-11-27T03:57:05.475Z",
   "currency": "USD",
   "market": "US",
-  "rows_hash": "78645a169393b0948027e307ca342c81bbdf510fd9bb94e3e999de1f843dd66f",
+  "rows_hash": "48d1ded33fb8c921ff1918998e49119a92aa0b939d8ea1f47058f2c26eca65b5",
   "rows": [
     {
       "d": "2024-11-27",
@@ -4003,7 +4003,7 @@
       "h": 42.32,
       "l": 36.47,
       "c": 41.44,
-      "v": 2903400
+      "v": 2923600
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "ticker": "BE",
-  "updatedAt": "2026-11-26T03:58:03.393Z",
+  "updatedAt": "2026-11-27T03:57:03.514Z",
   "currency": "USD",
   "market": "US",
-  "rows_hash": "f4c02870b0ade517c097ae5e8f39554ce6d46ef9d58ab4188bc929288bc17571",
+  "rows_hash": "71a3af1a3fcfcbb941a0c0abba60cdf0a690cb8e35daa07c4505b917d9f8b1bd",
   "rows": [
     {
       "d": "2024-11-27",
@@ -4003,7 +4003,7 @@
       "h": 155.545,
       "l": 136.88,
       "c": 152.89,
-      "v": 18487300
+      "v": 18646400
     }
   ]
 }

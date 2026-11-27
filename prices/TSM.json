@@ -1,9 +1,9 @@
 {
   "ticker": "TSM",
-  "updatedAt": "2026-11-26T03:58:04.683Z",
+  "updatedAt": "2026-11-27T03:57:04.894Z",
   "currency": "USD",
   "market": "US",
-  "rows_hash": "5336635b22eaa4b7299c5c2f94e1e2078cd4ba35cb478eb7096d8c5d26c028cc",
+  "rows_hash": "f87f0f0932a4e328f739cdefae2deac98aefb73eaaff2050bf3be1171e9722c4",
   "rows": [
     {
       "d": "2024-11-27",
@@ -4003,7 +4003,7 @@
       "h": 343.17,
       "l": 321.1,
       "c": 342.34,
-      "v": 22717200
+      "v": 22861100
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "NVDA",
-  "updated_at_utc": "2026-11-26T03:58:02.689Z",
+  "updated_at_utc": "2026-11-27T03:57:02.699Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-25",
@@ -25,9 +25,9 @@
   "bb_lower": 124.75,
   "bb_percent_b": 0.2572,
   "bb_width_pct": 55.34,
-  "volume": 363377300,
-  "volume_ma20": 350820315,
-  "volume_ratio": 1.036,
+  "volume": 366571900,
+  "volume_ma20": 350980045,
+  "volume_ratio": 1.044,
   "volume_signal": "NORMAL",
   "atr14": 13.38,
   "adx14": 72.68,
@@ -55,8 +55,8 @@
   "bbLower": 124.75,
   "bbPercentB": 0.2572,
   "bbWidthPct": 55.34,
-  "volumeMA20": 350820315,
-  "volumeRatio": 1.036,
+  "volumeMA20": 350980045,
+  "volumeRatio": 1.044,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -38.65,
   "fromLow52Pct": 19.92,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "42234c1a8d08e5f18f44811f5ce1a3cc8ba61284f6a1ea7e59c719f93a65f3b6"
+  "rows_hash": "ea5ea2dc5c9e27e5e1ad25fbac78bccd76d3f8bf9ccbfa005c6e432a4792a56f"
 }

@@ -1,9 +1,9 @@
 {
   "ticker": "AAPL",
-  "updatedAt": "2026-11-26T03:58:02.980Z",
+  "updatedAt": "2026-11-27T03:57:03.018Z",
   "currency": "USD",
   "market": "US",
-  "rows_hash": "b1e2b62d8cb673aa6178a1715f81b98c49cd13120d5712bb1e41aab08dabc56d",
+  "rows_hash": "092c7da7aeadb4fcd439fdcbed2070cbdadf4c8388187d8c022a9e055d2d8e77",
   "rows": [
     {
       "d": "2024-11-27",
@@ -4003,7 +4003,7 @@
       "h": 356.75,
       "l": 345.13,
       "c": 355.58,
-      "v": 54240100
+      "v": 54285300
     }
   ]
 }

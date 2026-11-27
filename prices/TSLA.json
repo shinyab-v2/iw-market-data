@@ -1,9 +1,9 @@
 {
   "ticker": "TSLA",
-  "updatedAt": "2026-11-26T03:58:02.822Z",
+  "updatedAt": "2026-11-27T03:57:02.849Z",
   "currency": "USD",
   "market": "US",
-  "rows_hash": "1634a1d03eac60d7a2da6776ae462a3f853302b7f2b20c14b8c565a2aca3e5f4",
+  "rows_hash": "e45939b47be3cb8c66ef9f9f70c09bf699ec37a407dcc8443d257d4170a9987a",
   "rows": [
     {
       "d": "2024-11-27",
@@ -4003,7 +4003,7 @@
       "h": 383.73,
       "l": 357.64,
       "c": 380.14,
-      "v": 34789900
+      "v": 34915800
     }
   ]
 }

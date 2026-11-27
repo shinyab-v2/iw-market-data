@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "AAPL",
-  "updated_at_utc": "2026-11-26T03:58:02.981Z",
+  "updated_at_utc": "2026-11-27T03:57:03.019Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-25",
@@ -25,9 +25,9 @@
   "bb_lower": 335.93,
   "bb_percent_b": 0.7712,
   "bb_width_pct": 7.31,
-  "volume": 54240100,
-  "volume_ma20": 51541760,
-  "volume_ratio": 1.052,
+  "volume": 54285300,
+  "volume_ma20": 51544020,
+  "volume_ratio": 1.053,
   "volume_signal": "NORMAL",
   "atr14": 8.56,
   "adx14": 11.06,
@@ -55,8 +55,8 @@
   "bbLower": 335.93,
   "bbPercentB": 0.7712,
   "bbWidthPct": 7.31,
-  "volumeMA20": 51541760,
-  "volumeRatio": 1.052,
+  "volumeMA20": 51544020,
+  "volumeRatio": 1.053,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -1.45,
   "fromLow52Pct": 46.08,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "b1e2b62d8cb673aa6178a1715f81b98c49cd13120d5712bb1e41aab08dabc56d"
+  "rows_hash": "092c7da7aeadb4fcd439fdcbed2070cbdadf4c8388187d8c022a9e055d2d8e77"
 }

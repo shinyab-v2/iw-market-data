@@ -1,9 +1,9 @@
 {
   "ticker": "SPY",
-  "updatedAt": "2026-11-26T03:58:02.548Z",
+  "updatedAt": "2026-11-27T03:57:02.507Z",
   "currency": "USD",
   "market": "US",
-  "rows_hash": "5ee8e50e640122ba7511791e05d137f99b9c4fe096aec3aced65e7352263f89b",
+  "rows_hash": "7dbfbf662c0b62e65b68e792d0a233ca46af4d60826dfe659c851710d93b1bc6",
   "rows": [
     {
       "d": "2024-11-27",
@@ -4003,7 +4003,7 @@
       "h": 718.43,
       "l": 695.45,
       "c": 716.7,
-      "v": 72919200
+      "v": 73112800
     }
   ]
 }

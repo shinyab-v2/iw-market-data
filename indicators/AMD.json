@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "AMD",
-  "updated_at_utc": "2026-11-26T03:58:03.515Z",
+  "updated_at_utc": "2026-11-27T03:57:03.656Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-25",
@@ -25,9 +25,9 @@
   "bb_lower": 384.43,
   "bb_percent_b": 0.1031,
   "bb_width_pct": 42.84,
-  "volume": 51340800,
-  "volume_ma20": 47099660,
-  "volume_ratio": 1.09,
+  "volume": 51632000,
+  "volume_ma20": 47114220,
+  "volume_ratio": 1.096,
   "volume_signal": "NORMAL",
   "atr14": 46.51,
   "adx14": 15.1,
@@ -55,8 +55,8 @@
   "bbLower": 384.43,
   "bbPercentB": 0.1031,
   "bbWidthPct": 42.84,
-  "volumeMA20": 47099660,
-  "volumeRatio": 1.09,
+  "volumeMA20": 47114220,
+  "volumeRatio": 1.096,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -38.34,
   "fromLow52Pct": 115.72,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "ea030ee3f7be63aa25c5e15591b8f14f8a06c237646f87f37cc9d944d2380785"
+  "rows_hash": "a71976b10fe0a940248fd7b8f7b122f076c4bf08ed556dcb904621ab53629e4d"
 }

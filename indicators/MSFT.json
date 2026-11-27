@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "MSFT",
-  "updated_at_utc": "2026-11-26T03:58:03.130Z",
+  "updated_at_utc": "2026-11-27T03:57:03.173Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-25",
@@ -25,9 +25,9 @@
   "bb_lower": 479.08,
   "bb_percent_b": 0.1426,
   "bb_width_pct": 14.72,
-  "volume": 26733600,
-  "volume_ma20": 30662685,
-  "volume_ratio": 0.872,
+  "volume": 26759500,
+  "volume_ma20": 30663980,
+  "volume_ratio": 0.873,
   "volume_signal": "NORMAL",
   "atr14": 16.88,
   "adx14": 17.37,
@@ -55,8 +55,8 @@
   "bbLower": 479.08,
   "bbPercentB": 0.1426,
   "bbWidthPct": 14.72,
-  "volumeMA20": 30662685,
-  "volumeRatio": 0.872,
+  "volumeMA20": 30663980,
+  "volumeRatio": 0.873,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -12.38,
   "fromLow52Pct": 40.3,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "5b1d292122af2deaf435c6363d4b8b988f1e72a4575973df08329e5c921335b8"
+  "rows_hash": "19f5956af8abb96bbb4a6aced0b5788eea76cb2cb6903292dfc201d6fa4a4ca2"
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "ticker": "AVGO",
-  "updated_at_utc": "2026-11-26T03:58:04.111Z",
+  "updated_at_utc": "2026-11-27T03:57:04.366Z",
   "source": "IW_MARKET_DATA_CDN",
   "source_status": "available",
   "price_date": "2026-11-25",
@@ -25,9 +25,9 @@
   "bb_lower": 285.01,
   "bb_percent_b": 0.1888,
   "bb_width_pct": 25.68,
-  "volume": 34256900,
-  "volume_ma20": 32382890,
-  "volume_ratio": 1.058,
+  "volume": 34349500,
+  "volume_ma20": 32387520,
+  "volume_ratio": 1.061,
   "volume_signal": "NORMAL",
   "atr14": 19.97,
   "adx14": 14.1,
@@ -55,8 +55,8 @@
   "bbLower": 285.01,
   "bbPercentB": 0.1888,
   "bbWidthPct": 25.68,
-  "volumeMA20": 32382890,
-  "volumeRatio": 1.058,
+  "volumeMA20": 32387520,
+  "volumeRatio": 1.061,
   "volumeSignal": "NORMAL",
   "fromHigh52Pct": -39.22,
   "fromLow52Pct": 8.22,
@@ -78,5 +78,5 @@
     "bbAvailable": true,
     "rsiAvailable": true
   },
-  "rows_hash": "f13e653804ce4908d392193b75fca49fcd8b4165c263592b947ceee538e7474e"
+  "rows_hash": "595a22a33ec5cfd9a2372afab93e2f4d1e8434a6f0c07a05b671b3beb85318f8"
 }

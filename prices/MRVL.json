@@ -1,9 +1,9 @@
 {
   "ticker": "MRVL",
-  "updatedAt": "2026-11-26T03:58:04.447Z",
+  "updatedAt": "2026-11-27T03:57:04.654Z",
   "currency": "USD",
   "market": "US",
-  "rows_hash": "11ffa5d97d8d5dc68a731d2cdafa9882ec515a9daeba29fcd5e17b361c5735c6",
+  "rows_hash": "d84e561936e17cbc61eabaad2c5d21ecf04c63b93a6adf2f987633e119c56fa3",
   "rows": [
     {
       "d": "2024-11-27",
@@ -4003,7 +4003,7 @@
       "h": 131.14,
       "l": 117.8,
       "c": 130.93,
-      "v": 28539800
+      "v": 28713100
     }
   ]
 }
