@@ -67,6 +67,29 @@ an earlier build already published today's intraday candle, a pre-close run
 fails closed rather than silently rolling the published date backwards. A
 subsequent eligible build can replace it through the normal paired publication.
 
+### Incremental staging
+
+The scheduled builder retains its current full-history fetch. A private
+staging caller can pass `incremental` to `runBuild` with independent
+`pricesDir` and `indicatorsDir` paths. Only one process should write those
+directories. The caller supplies two adapters.
+
+- `readEvidence(target, now)` returns `state`, `sessions`, `basis` and, when
+  independently justified, `forceRepair`. Sessions are completed, eligible
+  trading dates for the symbol, including listing and suspension rules. Basis
+  identifies the verified source, adjustment policy and corporate-action
+  epoch. Inactive symbols are skipped and their existing files are retained.
+- `fetchVerified(target, requested, now)` returns original string ticker,
+  market, currency, independently verified basis and canonical OHLCV rows.
+  Every requested session is required. Pass provider errors to the builder
+  and preserve prior output when verification fails.
+
+Legacy history with a valid row hash and unknown basis requires a full verified
+replacement. The staging builder detects a changed on-disk baseline before
+writing. An authorized publication process must still validate the price and
+indicator pair and commit both against the same Git parent. Staged files may
+contain a private universe or provider-restricted data.
+
 Offline regression checks (no provider calls or production writes):
 
 ```sh

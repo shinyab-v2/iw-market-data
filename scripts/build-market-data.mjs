@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { mergePriceUpdate, planPriceUpdate } from './price-incremental.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -485,14 +486,40 @@ export function computeRowsHash(rows) {
   return crypto.createHash('sha256').update(JSON.stringify(rows || [])).digest('hex');
 }
 
+async function buildVerifiedHistory(target, existing, incremental, count, now) {
+  const evidence = await incremental.readEvidence(target, now);
+  if (!evidence) throw new Error('PRICE_EVIDENCE_UNAVAILABLE');
+  const verifiedTarget = { ...target, basis: evidence.basis };
+  const sessions = evidence.sessions?.slice(-count);
+  const plan = planPriceUpdate({
+    target: verifiedTarget,
+    state: evidence.state,
+    existing,
+    sessions,
+    forceRepair: evidence.forceRepair === true
+  });
+  if (plan.mode === 'SKIP') return { skipped: plan.reason };
+  if (existing && (!Array.isArray(existing.rows) || computeRowsHash(existing.rows) !== existing.rows_hash)) {
+    throw new Error('PUBLISHED_PRICE_HASH_INVALID');
+  }
+  const fetched = await incremental.fetchVerified(verifiedTarget, plan.requested, now);
+  const merged = mergePriceUpdate({ target: verifiedTarget, plan, existing, fetched });
+  return { ok: true, rows: merged.rows, basis: merged.basis, mode: plan.mode };
+}
+
 export async function runBuild({
   universeFile = UNIVERSE_FILE,
   pricesDir = PRICES_DIR,
   indicatorsDir = INDICATORS_DIR,
   count = 500,
   dryRun = false,
-  now = new Date()
+  now = new Date(),
+  incremental = null
 } = {}) {
+  if (incremental && !dryRun && (path.resolve(pricesDir) === PRICES_DIR ||
+      path.resolve(indicatorsDir) === INDICATORS_DIR)) {
+    throw new Error('INCREMENTAL_REQUIRES_STAGING_DIRECTORIES');
+  }
   if (!fs.existsSync(pricesDir)) {
     fs.mkdirSync(pricesDir, { recursive: true });
   }
@@ -515,20 +542,46 @@ export async function runBuild({
   };
 
   for (const item of symbols) {
+    if (incremental && (typeof item.ticker !== 'string' || normalizeTickerString(item.ticker) !== item.ticker ||
+        !/^[A-Z0-9][A-Z0-9.\-]*$/.test(item.ticker))) {
+      summary.failed++;
+      summary.details.push({ status: 'FAILED', error: 'INVALID_TICKER' });
+      continue;
+    }
     const ticker = normalizeTickerString(item.ticker);
     const isKr = item.market === 'KRX' || /^\d{6}$/.test(ticker) || /^\d{4}[A-Z0-9]{2}$/.test(ticker);
     const currency = item.currency || (isKr ? 'KRW' : 'USD');
     const market = isKr ? 'KRX' : 'US';
 
+    const priceTargetFile = path.join(pricesDir, `${ticker}.json`);
+    const priceBaseline = fs.existsSync(priceTargetFile) ? fs.readFileSync(priceTargetFile, 'utf8') : null;
+    let existingPrice = null;
     let result = null;
-    if (isKr) {
+    try {
+      if (priceBaseline !== null) existingPrice = JSON.parse(priceBaseline);
+    } catch (err) {
+      if (incremental) result = { ok: false, error: 'PUBLISHED_PRICE_JSON_INVALID' };
+    }
+    if (incremental && !result) {
+      try {
+        result = await buildVerifiedHistory({ ticker, market, currency }, existingPrice, incremental, count, now);
+        const current = fs.existsSync(priceTargetFile) ? fs.readFileSync(priceTargetFile, 'utf8') : null;
+        if (current !== priceBaseline) throw new Error('BASELINE_CHANGED_REPLAN');
+      } catch (error) {
+        result = { ok: false, error: error.message };
+      }
+    } else if (!incremental && isKr) {
       // Fetch a spare bar before dropping today's unconfirmed KRX candle.
       result = await fetchDomestic(ticker, count + 1);
       result.rows = selectDomesticEodRows(result.rows, now, count);
-    } else {
+    } else if (!incremental) {
       result = await fetchUs(ticker, count);
     }
 
+    if (result?.skipped) {
+      summary.details.push({ ticker, status: 'SKIPPED', reason: result.skipped });
+      continue;
+    }
     if (!result || !result.ok || !result.rows.length) {
       console.warn(`[FAIL] ${ticker}: ${result?.error || 'No rows returned'}`);
       summary.failed++;
@@ -537,15 +590,7 @@ export async function runBuild({
     }
 
     // 1. Price Payload
-    const priceTargetFile = path.join(pricesDir, `${ticker}.json`);
     const newPriceHash = computeRowsHash(result.rows);
-
-    let existingPrice = null;
-    if (fs.existsSync(priceTargetFile)) {
-      try {
-        existingPrice = JSON.parse(fs.readFileSync(priceTargetFile, 'utf8'));
-      } catch (err) {}
-    }
 
     const lastRow = result.rows.at(-1);
     const previousRows = existingPrice?.rows || [];
@@ -563,7 +608,8 @@ export async function runBuild({
     }
 
     if (existingPrice?.rows_hash === newPriceHash && computeRowsHash(previousRows) === newPriceHash &&
-        existingPrice.currency === currency && existingPrice.market === market && existingPrice.ticker === ticker) {
+        existingPrice.currency === currency && existingPrice.market === market && existingPrice.ticker === ticker &&
+        (!incremental || existingPrice.basis === result.basis)) {
       summary.pricesUnchanged++;
     } else {
       const pricePayload = {
@@ -572,6 +618,7 @@ export async function runBuild({
         currency,
         market,
         rows_hash: newPriceHash,
+        ...(incremental ? { basis: result.basis } : {}),
         rows: result.rows
       };
       if (!dryRun) {
@@ -606,6 +653,7 @@ export async function runBuild({
     console.log(`[OK] ${ticker}: ${result.rows.length} rows, Close: ${lastRow.c}, TrendScore: ${techSnapshot.trend_score} (${techSnapshot.trend_label})`);
     summary.details.push({
       ticker,
+      ...(incremental ? { mode: result.mode } : {}),
       rows: result.rows.length,
       lastClose: lastRow.c,
       trendScore: techSnapshot.trend_score,

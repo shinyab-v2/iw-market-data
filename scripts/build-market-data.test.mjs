@@ -2,7 +2,8 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { formatNyDate, runBuild } from './build-market-data.mjs';
+import { computeRowsHash, formatNyDate, runBuild } from './build-market-data.mjs';
+import './price-incremental.test.mjs';
 
 const root = fs.mkdtempSync(path.join(os.tmpdir(), 'iw-build-'));
 const universeFile = path.join(root, 'universe.json');
@@ -40,6 +41,52 @@ try {
   assert.equal(regression.failed, 1);
   assert.equal(regression.details[0].error, 'UNSAFE_HISTORY');
   assert.equal(fs.readFileSync(pricesFile, 'utf8'), rawPrices);
+
+  // Stage a verified legacy replacement followed by a bounded DELTA. The adapter
+  // supplies synthetic evidence here. The ordinary scheduled path never opts in.
+  const sessions = [prior, date];
+  const requests = [];
+  let state = 'ACTIVE';
+  let fetchedBasis = 'KR-TEST-SPLIT-EPOCH';
+  let race = false;
+  const incremental = {
+    readEvidence: async () => ({sessions, basis:'KR-TEST-SPLIT-EPOCH', state}),
+    fetchVerified: async (target, requested) => {
+      requests.push(requested.slice());
+      if (race) fs.appendFileSync(pricesFile, '\n');
+      return {...target, basis:fetchedBasis, rows:requested.map(d=>({d,o:10,h:12,l:9,c:11,v:100}))};
+    }
+  };
+  const verifiedOptions = {...options, incremental, count:6};
+  assert.equal((await runBuild(verifiedOptions)).details[0].mode,'REPAIR');
+  const verified = JSON.parse(fs.readFileSync(pricesFile, 'utf8'));
+  assert.equal(verified.basis,'KR-TEST-SPLIT-EPOCH');
+  assert.equal(verified.rows_hash,computeRowsHash(verified.rows));
+  sessions.push('2026-11-23');
+  assert.equal((await runBuild({...verifiedOptions,now:new Date('2026-11-23T07:00:00Z')})).details[0].mode,'DELTA');
+  assert.deepEqual(requests,[sessions.slice(0,2),sessions]);
+  const stagedBefore = fs.readFileSync(pricesFile, 'utf8');
+  const indicatorFile = path.join(indicatorsDir,'005930.json');
+  const indicatorBefore = fs.readFileSync(indicatorFile, 'utf8');
+  assert.equal(JSON.parse(stagedBefore).rows_hash,JSON.parse(indicatorBefore).rows_hash);
+  state = 'INACTIVE';
+  assert.equal((await runBuild(verifiedOptions)).details[0].status,'SKIPPED');
+  assert.equal(requests.length,2);
+  state = 'ACTIVE';
+  fetchedBasis = 'OTHER_SOURCE';
+  assert.equal((await runBuild(verifiedOptions)).details[0].error,'FETCH_IDENTITY_OR_BASIS_MISMATCH');
+  assert.equal(fs.readFileSync(pricesFile,'utf8'),stagedBefore);
+  assert.equal(fs.readFileSync(indicatorFile,'utf8'),indicatorBefore);
+  fetchedBasis = 'KR-TEST-SPLIT-EPOCH';
+  race = true;
+  assert.equal((await runBuild(verifiedOptions)).details[0].error,'BASELINE_CHANGED_REPLAN');
+  assert.equal(fs.readFileSync(pricesFile,'utf8'),stagedBefore+'\n');
+  assert.equal(fs.readFileSync(indicatorFile,'utf8'),indicatorBefore);
+  const corrupt = {...JSON.parse(stagedBefore), rows_hash:'bad'};
+  fs.writeFileSync(pricesFile,JSON.stringify(corrupt));
+  assert.equal((await runBuild(verifiedOptions)).details[0].error,'PUBLISHED_PRICE_HASH_INVALID');
+  assert.equal(requests.length,4);
+  await assert.rejects(runBuild({incremental}), /INCREMENTAL_REQUIRES_STAGING_DIRECTORIES/);
 
   fs.writeFileSync(universeFile, JSON.stringify({ symbols: [{ ticker: 'SOXL', market: 'US' }] }));
   const nyDate = formatNyDate(options.now.getTime() / 1000);
